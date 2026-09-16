@@ -1,0 +1,21 @@
+# Defensa en profundidad: estos patrones NUNCA deben publicarse en este repo,
+# aunque estructuralmente ya viven fuera de esta carpeta (un nivel arriba, en
+# D:\PROG\NACIONAL\). Si alguna vez se copiara algo aquí por error, esto lo bloquea.
+*.csv
+*.xlsx
+*.xls
+# Excepcion explicita: historial.csv solo contiene conteos agregados (igual que
+# /data), nunca RUN/nombres -- es el historial de ejecuciones del actualizador.
+!HISTORIAL/historial.csv
+
+# Carpeta temporal del actualizador (solo existe mientras corre; si por algún
+# motivo quedara huérfana, nunca debe subirse).
+_tmp_actualizacion/
+
+# Bytecode de Python
+__pycache__/
+*.pyc
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db

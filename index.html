@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Visor Neumo23 2026 - Ñuble</title>
+<link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+<header class="encabezado">
+  <h1>Seguimiento Neumo23 2026 &mdash; Ñuble</h1>
+  <p>Nómina original de personas nacidas en 1961 &middot; Uso interno / institucional &middot; Datos agregados, sin identificación de personas</p>
+</header>
+
+<nav class="tabs">
+  <button class="activo" data-panel="panel-resumen">Resumen</button>
+  <button data-panel="panel-comunas">Comunas</button>
+  <button data-panel="panel-evolucion">Evolución temporal</button>
+  <button data-panel="panel-establecimientos">Establecimientos</button>
+  <button class="destacado-fuera-nomina" data-panel="panel-607">Hallazgo fuera de nómina</button>
+  <button data-panel="panel-metodologia">Metodología</button>
+</nav>
+
+<main>
+
+<div id="error-carga" style="display:none; background:#fdecea; border:1px solid #e08a80; color:#7a2a20; padding:14px 16px; border-radius:8px; margin-bottom:18px; font-size:0.9rem;"></div>
+
+<!-- ============================================================ -->
+<!-- 1. RESUMEN -->
+<!-- ============================================================ -->
+<section id="panel-resumen" class="panel activo">
+  <h2 class="titulo-seccion">Resumen general</h2>
+  <p class="subtitulo-seccion">Universo operacional: nómina original de <strong>6.480 personas</strong> nacidas en 1961 en Ñuble. Todos los indicadores de esta sección usan este universo como denominador. Datos con corte al <span id="fecha-datos">-</span>.</p>
+
+  <div class="tarjetas">
+    <div class="tarjeta">
+      <div class="valor" id="kpi-universo">-</div>
+      <div class="etiqueta">Nómina original (universo)</div>
+    </div>
+    <div class="tarjeta principal">
+      <div class="valor" id="kpi-encontrado">-</div>
+      <div class="etiqueta">Con registro válido encontrado (<span id="kpi-encontrado-pct">-</span> de la nómina)</div>
+    </div>
+    <div class="tarjeta alerta">
+      <div class="valor" id="kpi-sin-registro">-</div>
+      <div class="etiqueta">Sin registro válido encontrado (<span id="kpi-sin-registro-pct">-</span> de la nómina)</div>
+      <div class="nota">No equivale a "no vacunado". Ver metodología.</div>
+    </div>
+  </div>
+
+  <div class="tarjetas-secundarias">
+    <div class="tarjeta-mini"><div class="valor-mini" id="mini-revision">-</div>Requiere revisión</div>
+    <div class="tarjeta-mini"><div class="valor-mini" id="mini-no-cumple">-</div>Registro válido, no cumple año/territorio</div>
+    <div class="tarjeta-mini"><div class="valor-mini" id="mini-sin-run">-</div>RUN no disponible</div>
+    <div class="tarjeta-mini"><div class="valor-mini" id="mini-suma">-</div>Suma de verificación (debe ser 6.480)</div>
+  </div>
+
+  <div class="caja">
+    <h3>Distribución de las 5 categorías sobre el universo de 6.480</h3>
+    <div class="barra-apilada" id="barra-resumen"></div>
+    <div class="leyenda">
+      <span class="item"><span class="punto col-encontrado"></span>Registro válido encontrado</span>
+      <span class="item"><span class="punto col-sin-registro"></span>Sin registro válido encontrado</span>
+      <span class="item"><span class="punto col-revision"></span>Requiere revisión</span>
+      <span class="item"><span class="punto col-no-cumple"></span>No cumple año/territorio</span>
+      <span class="item"><span class="punto col-sin-run"></span>RUN no disponible</span>
+    </div>
+  </div>
+
+  <div class="aviso">
+    <strong>Nota:</strong> este porcentaje se denomina "avance sobre la nómina", no "cobertura poblacional". No existe un
+    denominador poblacional oficial confirmado independiente de esta nómina (ver Metodología).
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- 2. COMUNAS -->
+<!-- ============================================================ -->
+<section id="panel-comunas" class="panel">
+  <h2 class="titulo-seccion">Distribución territorial (comuna de residencia)</h2>
+  <p class="subtitulo-seccion">
+    Comuna de <strong>residencia según la nómina original</strong> (no la del registro de vacunación), para que las
+    6.480 personas &mdash;incluidas las que no tienen registro&mdash; tengan siempre una comuna asignada.
+    Se muestran los conteos exactos (herramienta de uso interno/local; ver Metodología).
+    No se incluye mapa en esta versión.
+  </p>
+  <div class="caja">
+    <div id="lista-comunas"></div>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- 3. EVOLUCION TEMPORAL -->
+<!-- ============================================================ -->
+<section id="panel-evolucion" class="panel">
+  <h2 class="titulo-seccion">Evolución temporal</h2>
+  <p class="subtitulo-seccion">
+    Solo incluye a las <strong>4.072 personas con registro válido encontrado</strong> (tienen una fecha de vacunación real).
+    No existe información temporal para las personas "sin registro válido encontrado": no se les atribuye ninguna fecha.
+  </p>
+  <div class="caja">
+    <h3>Acumulado de personas con registro válido, por mes de vacunación</h3>
+    <div class="grafico-lineas" id="grafico-evolucion"></div>
+  </div>
+  <div class="caja">
+    <h3>Detalle mensual</h3>
+    <div class="tabla-scroll">
+      <table class="tabla-datos">
+        <thead><tr><th>Mes</th><th class="num">Nuevos con registro</th><th class="num">Acumulado</th></tr></thead>
+        <tbody id="tabla-mensual-body"></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- 4. ESTABLECIMIENTOS -->
+<!-- ============================================================ -->
+<section id="panel-establecimientos" class="panel">
+  <h2 class="titulo-seccion">Establecimientos de vacunación</h2>
+  <p class="subtitulo-seccion">
+    Establecimientos donde se registró la vacunación de las personas con registro válido encontrado (4.072).
+    Se muestran <strong>todos los establecimientos de forma individual</strong>, sin agrupar por tamaño
+    (no existe concepto de establecimiento para quienes no tienen registro).
+  </p>
+  <div class="caja">
+    <div class="tabla-scroll">
+      <table class="tabla-datos">
+        <thead><tr><th>Establecimiento</th><th>Comuna de ocurrencia</th><th class="num">Total</th><th></th></tr></thead>
+        <tbody id="tabla-establecimientos-body"></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- 5. HALLAZGO FUERA DE NOMINA -->
+<!-- ============================================================ -->
+<section id="panel-607" class="panel">
+  <h2 class="titulo-seccion" style="color:#b5541a;">Hallazgo fuera de nómina</h2>
+  <div class="aviso-naranja">
+    <strong>Importante:</strong> <span id="aviso-607-texto">-</span>
+  </div>
+
+  <div class="tarjetas">
+    <div class="tarjeta alerta">
+      <div class="valor" id="kpi-607-total">-</div>
+      <div class="etiqueta">Personas identificadas fuera de la nómina (auditoría RNI)</div>
+    </div>
+  </div>
+
+  <div class="grid-dos-col">
+    <div class="caja">
+      <h3>Por comuna de residencia (según Programaticas_2026.csv)</h3>
+      <div class="tabla-scroll">
+        <table class="tabla-datos">
+          <thead><tr><th>Comuna</th><th class="num">N</th></tr></thead>
+          <tbody id="tabla-607-comuna-body"></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="caja">
+      <h3>Por mes de vacunación</h3>
+      <div class="tabla-scroll">
+        <table class="tabla-datos">
+          <thead><tr><th>Mes</th><th class="num">N</th></tr></thead>
+          <tbody id="tabla-607-mes-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="caja">
+    <h3>Por establecimiento</h3>
+    <div class="tabla-scroll">
+      <table class="tabla-datos">
+        <thead><tr><th>Establecimiento</th><th>Comuna de ocurrencia</th><th class="num">N</th></tr></thead>
+        <tbody id="tabla-607-estab-body"></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- 6. METODOLOGIA -->
+<!-- ============================================================ -->
+<section id="panel-metodologia" class="panel">
+  <h2 class="titulo-seccion">Metodología y fuentes</h2>
+  <div class="caja metodologia">
+    <dl>
+      <dt>Universo</dt>
+      <dd>6.480 personas de la hoja "COMPLETA" de la nómina original de nacidos en 1961 de Ñuble. No se modifica ni reemplaza esta nómina. No se le suman automáticamente los 607 casos del módulo "Hallazgo fuera de nómina".</dd>
+
+      <dt>Filtros de exclusión previa (RNI / Programaticas_2026.csv)</dt>
+      <dd>
+        Antes de cualquier conteo, cruce o clasificación, se identifican primero todos los registros de Programaticas_2026.csv cuyo NOMBRE_VACUNA sea "Neumocócica polisacárida 23V" o "Neumocócica polisacárida 23V (sector privado)". De ese conjunto se excluyen por completo (no participan en ningún indicador, ni como válidos ni como "requiere revisión") los registros que cumplan <strong>cualquiera</strong> de estas tres condiciones: REGISTRO_ELIMINADO distinto de "NO"; VACUNA_ADMINISTRADA distinto de "SI"; DOSIS = "EPRO". Solo después de aplicar este filtro se cruza la base resultante contra la nómina de 6.480.
+      </dd>
+
+      <dt>Definición de "registro válido" de Neumo23</dt>
+      <dd>Un registro de Neumo23 (NOMBRE_VACUNA en cualquiera de las dos variantes) se considera <strong>válido</strong> solo si cumple simultáneamente: REGISTRO_ELIMINADO = "NO", VACUNA_ADMINISTRADA = "SI" y DOSIS distinto de "EPRO". Un registro que falle cualquiera de estas tres condiciones queda excluido: no cuenta como vacunación válida, no participa en el cálculo de las categorías "Registro válido encontrado" ni "Registro válido, no cumple año/territorio", y por sí solo tampoco basta para ubicar a una persona en "Requiere revisión" salvo que sea el único registro de Neumo23 que tiene esa persona en toda la base (ver más abajo).</dd>
+
+      <dt>Fuente de los datos</dt>
+      <dd>Nómina original (Excel, hoja COMPLETA) cruzada por RUN normalizado contra Programaticas_2026.csv (extracto de la base nacional de vacunación / RNI 2026), aplicando primero el filtro de exclusión previa descrito arriba.</dd>
+
+      <dt>Las 5 categorías</dt>
+      <dd>
+        <strong>Registro válido encontrado (4.072):</strong> en la nómina, con al menos un registro válido de Neumo23 (según la definición de arriba) que además cumple simultáneamente año de nacimiento 1961, residencia en comuna de Ñuble y ocurrencia en comuna de Ñuble.<br>
+        <strong>Sin registro válido encontrado (2.065):</strong> en la nómina, sin ningún registro de Neumo23 en la base analizada, ni válido ni excluido por los filtros. No existe ninguna mención de Neumo23 para este RUN en Programaticas_2026.csv. <em>No significa "no vacunado"</em>: la denominación exacta usada en este visor es "Sin registro válido de Neumo23 administrada encontrado en la base RNI 2026 analizada". Podría haberse vacunado antes de 2026, en otro sistema, o existir un error de registro.<br>
+        <strong>Requiere revisión (190):</strong> en la nómina, con al menos un registro de Neumo23 en la base, pero donde <strong>ninguno</strong> de esos registros cumple la definición de "registro válido" (todos tienen REGISTRO_ELIMINADO distinto de "NO", VACUNA_ADMINISTRADA distinto de "SI", y/o DOSIS = "EPRO"). A diferencia de "Sin registro válido encontrado", aquí sí existe evidencia de un intento de vacunación en el RNI, solo que ninguno de esos intentos quedó registrado como una administración válida.<br>
+        <strong>Registro válido, no cumple año/territorio (131):</strong> en la nómina, con al menos un registro válido de Neumo23, pero donde ninguno de esos registros válidos coincide simultáneamente con año de nacimiento 1961 y residencia/ocurrencia en Ñuble. Se diferencia de "Sin registro válido encontrado" en que aquí sí existe un registro válido de administración; el problema es una discrepancia de cohorte o territorio, no la ausencia del registro.<br>
+        <strong>RUN no disponible (22):</strong> RUN vacío o con formato no normalizable en la nómina; no se pudo intentar el cruce.
+      </dd>
+
+      <dt>"Sin registro" vs. "Requiere revisión": la diferencia exacta</dt>
+      <dd>"Sin registro válido encontrado" significa que Programaticas_2026.csv no contiene ninguna fila de Neumo23 para ese RUN, ni siquiera una excluida por los filtros. "Requiere revisión" significa que sí existe al menos una fila de Neumo23 para ese RUN, pero todas fueron excluidas (por eliminación, por no administración, o por ser dosis EPRO); es decir, hay evidencia de un intento, no ausencia total de datos.</dd>
+
+      <dt>"Registro válido con discrepancia de cohorte/territorio" vs. "Sin registro": la diferencia exacta</dt>
+      <dd>En "Registro válido, no cumple año/territorio" la persona SÍ tiene una administración de Neumo23 válida y confirmada en el RNI; lo que no coincide es el año de nacimiento y/o la comuna de residencia/ocurrencia respecto de los criterios de la cohorte 1961-Ñuble. En "Sin registro válido encontrado" no hay ninguna administración válida que evaluar: la ausencia es total, no una discrepancia de datos.</dd>
+
+      <dt>Tratamiento separado del grupo de 607 (fuera de nómina)</dt>
+      <dd>El grupo de 607 personas se calcula con exactamente la misma definición de "registro válido" (incluyendo el filtro DOSIS ≠ "EPRO") y los mismos criterios de año/territorio que las 5 categorías anteriores, pero aplicados a personas cuyo RUN normalizado NO aparece en la nómina de 6.480. Se reporta siempre por separado, nunca se suma al universo de 6.480 en los indicadores principales, y su clasificación no reutiliza ni modifica las categorías de la nómina.</dd>
+
+      <dt>Comuna utilizada</dt>
+      <dd>Para las 6.480 personas (módulos Resumen, Comunas y Evolución) se usa siempre la comuna de <strong>residencia registrada en la nómina original</strong>, nunca la de Programaticas_2026.csv, para que las personas sin registro también tengan una comuna asignada. Para el módulo de Establecimientos y el de Hallazgo fuera de nómina se usa la comuna de <strong>ocurrencia/vacunación</strong> proveniente de Programaticas_2026.csv. Estas dos comunas (residencia y ocurrencia) se muestran siempre por separado y nunca se combinan como si fueran la misma variable.</dd>
+
+      <dt>Hallazgo fuera de nómina (607 personas)</dt>
+      <dd>Personas nacidas en 1961, con Neumo23 válida, residencia y ocurrencia en Ñuble, cuyo RUN normalizado no se encontró en la nómina de 6.480. Se identificaron mediante un cruce inverso (RNI &rarr; nómina). No forman parte del universo operacional de 6.480, no se suman a él en ningún indicador principal, y su eventual incorporación a la nómina debe ser evaluada por la instancia responsable de la estrategia (Servicio de Salud Ñuble y/o SEREMI de Salud Ñuble, según la investigación documental realizada; no existe una asignación formal documentada).</dd>
+
+      <dt>Reglas de privacidad aplicadas</dt>
+      <dd>
+        Ninguna tabla de este visor contiene RUN, RUT, nombres, direcciones, teléfonos, correos, fecha de nacimiento completa, SECTOR, CODIGO.FAMILIA.SECTOR, GENERO detallado, ni la variable ¿HOGAR.O.INSTITUCION?. Este visor recibe únicamente tablas agregadas por comuna/establecimiento/mes ya generadas; el navegador nunca recibe la base con RUN ni una fila por persona.<br><br>
+        <strong>Nota sobre la versión actual (uso interno/local):</strong> a partir de la corrección de presentación solicitada, este visor <strong>ya no aplica supresión de celdas con menos de 10 personas</strong> ("&lt;10") ni <strong>agrupa establecimientos</strong> bajo una categoría "Otros". Se muestran los conteos exactos (incluyendo 1, 2, ..., 9) en todas las tablas agregadas, y todos los establecimientos aparecen en filas individuales. Esta relajación se aplicó porque el visor es una herramienta de análisis interno del propio equipo, no un producto de difusión pública; si en algún momento se decide publicar una versión externa, estas dos protecciones (supresión n&lt;10 y agrupación de establecimientos pequeños) deben reactivarse antes de publicar. Comunas fuera de la Región de Ñuble se siguen agrupando en "Fuera de la Región de Ñuble (agregado)" (esto agrupa filas de comuna, no oculta conteos: las 21 comunas de Ñuble se muestran siempre de forma individual con sus valores exactos).
+      </dd>
+
+      <dt>Limitaciones conocidas</dt>
+      <dd>
+        No existe un denominador poblacional oficial confirmado independiente de esta nómina (por eso se habla de "avance sobre la nómina", no de "cobertura"). No existe evidencia documental de una fecha de corte oficial de la nómina. La comuna de residencia según la nómina y según Programaticas_2026.csv difiere en aproximadamente 8,8% de los casos con ambos datos disponibles. No se cuenta con una capa geográfica de las comunas de Ñuble, por lo que esta versión no incluye mapa. Los datos de Programaticas_2026.csv son un extracto estático, no una conexión en vivo al RNI.
+      </dd>
+
+      <dt>Arquitectura de datos</dt>
+      <dd>Base interna con RUN (nunca publicada) &rarr; tablas agregadas con supresión aplicada (carpeta <code>/data</code>, en formato JSON) &rarr; este visor, que solo lee esas tablas agregadas.</dd>
+    </dl>
+  </div>
+</section>
+
+</main>
+
+<footer class="pie">
+  Visor de uso interno/institucional &middot; Construido a partir de la nómina original y Programaticas_2026.csv &middot;
+  No constituye una cobertura poblacional oficial &middot; Ningún archivo fuente original fue modificado.
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>

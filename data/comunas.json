@@ -1,0 +1,232 @@
+[
+  {
+    "comuna": "Chillán",
+    "total_nomina": 2116,
+    "encontrado_valido": 1250,
+    "sin_registro": 810,
+    "requiere_revision": 25,
+    "no_cumple_criterio": 20,
+    "sin_run": 11,
+    "pct_encontrado_valido": 59.07
+  },
+  {
+    "comuna": "San Carlos",
+    "total_nomina": 809,
+    "encontrado_valido": 564,
+    "sin_registro": 171,
+    "requiere_revision": 59,
+    "no_cumple_criterio": 14,
+    "sin_run": 1,
+    "pct_encontrado_valido": 69.72
+  },
+  {
+    "comuna": "Chillán Viejo",
+    "total_nomina": 367,
+    "encontrado_valido": 252,
+    "sin_registro": 88,
+    "requiere_revision": 17,
+    "no_cumple_criterio": 4,
+    "sin_run": 6,
+    "pct_encontrado_valido": 68.66
+  },
+  {
+    "comuna": "Coihueco",
+    "total_nomina": 344,
+    "encontrado_valido": 223,
+    "sin_registro": 110,
+    "requiere_revision": 7,
+    "no_cumple_criterio": 4,
+    "sin_run": 0,
+    "pct_encontrado_valido": 64.83
+  },
+  {
+    "comuna": "Bulnes",
+    "total_nomina": 332,
+    "encontrado_valido": 203,
+    "sin_registro": 114,
+    "requiere_revision": 4,
+    "no_cumple_criterio": 10,
+    "sin_run": 1,
+    "pct_encontrado_valido": 61.14
+  },
+  {
+    "comuna": "Quillón",
+    "total_nomina": 262,
+    "encontrado_valido": 171,
+    "sin_registro": 75,
+    "requiere_revision": 9,
+    "no_cumple_criterio": 6,
+    "sin_run": 1,
+    "pct_encontrado_valido": 65.27
+  },
+  {
+    "comuna": "San Ignacio",
+    "total_nomina": 236,
+    "encontrado_valido": 140,
+    "sin_registro": 94,
+    "requiere_revision": 0,
+    "no_cumple_criterio": 2,
+    "sin_run": 0,
+    "pct_encontrado_valido": 59.32
+  },
+  {
+    "comuna": "Yungay",
+    "total_nomina": 233,
+    "encontrado_valido": 137,
+    "sin_registro": 88,
+    "requiere_revision": 1,
+    "no_cumple_criterio": 7,
+    "sin_run": 0,
+    "pct_encontrado_valido": 58.8
+  },
+  {
+    "comuna": "San Nicolás",
+    "total_nomina": 188,
+    "encontrado_valido": 130,
+    "sin_registro": 27,
+    "requiere_revision": 23,
+    "no_cumple_criterio": 8,
+    "sin_run": 0,
+    "pct_encontrado_valido": 69.15
+  },
+  {
+    "comuna": "Quirihue",
+    "total_nomina": 173,
+    "encontrado_valido": 99,
+    "sin_registro": 59,
+    "requiere_revision": 13,
+    "no_cumple_criterio": 2,
+    "sin_run": 0,
+    "pct_encontrado_valido": 57.23
+  },
+  {
+    "comuna": "Ñiquén",
+    "total_nomina": 169,
+    "encontrado_valido": 108,
+    "sin_registro": 51,
+    "requiere_revision": 2,
+    "no_cumple_criterio": 7,
+    "sin_run": 1,
+    "pct_encontrado_valido": 63.91
+  },
+  {
+    "comuna": "Pinto",
+    "total_nomina": 161,
+    "encontrado_valido": 106,
+    "sin_registro": 50,
+    "requiere_revision": 2,
+    "no_cumple_criterio": 3,
+    "sin_run": 0,
+    "pct_encontrado_valido": 65.84
+  },
+  {
+    "comuna": "Coelemu",
+    "total_nomina": 148,
+    "encontrado_valido": 87,
+    "sin_registro": 52,
+    "requiere_revision": 0,
+    "no_cumple_criterio": 9,
+    "sin_run": 0,
+    "pct_encontrado_valido": 58.78
+  },
+  {
+    "comuna": "Sin dato / no informado",
+    "total_nomina": 119,
+    "encontrado_valido": 42,
+    "sin_registro": 63,
+    "requiere_revision": 4,
+    "no_cumple_criterio": 10,
+    "sin_run": 0,
+    "pct_encontrado_valido": 35.29
+  },
+  {
+    "comuna": "Pemuco",
+    "total_nomina": 119,
+    "encontrado_valido": 81,
+    "sin_registro": 33,
+    "requiere_revision": 3,
+    "no_cumple_criterio": 2,
+    "sin_run": 0,
+    "pct_encontrado_valido": 68.07
+  },
+  {
+    "comuna": "Fuera de la Región de Ñuble (agregado)",
+    "total_nomina": 110,
+    "encontrado_valido": 50,
+    "sin_registro": 51,
+    "requiere_revision": 1,
+    "no_cumple_criterio": 8,
+    "sin_run": 0,
+    "pct_encontrado_valido": 45.45
+  },
+  {
+    "comuna": "Ránquil",
+    "total_nomina": 106,
+    "encontrado_valido": 58,
+    "sin_registro": 32,
+    "requiere_revision": 8,
+    "no_cumple_criterio": 7,
+    "sin_run": 1,
+    "pct_encontrado_valido": 54.72
+  },
+  {
+    "comuna": "Ninhue",
+    "total_nomina": 92,
+    "encontrado_valido": 84,
+    "sin_registro": 5,
+    "requiere_revision": 3,
+    "no_cumple_criterio": 0,
+    "sin_run": 0,
+    "pct_encontrado_valido": 91.3
+  },
+  {
+    "comuna": "El Carmen",
+    "total_nomina": 92,
+    "encontrado_valido": 63,
+    "sin_registro": 28,
+    "requiere_revision": 0,
+    "no_cumple_criterio": 1,
+    "sin_run": 0,
+    "pct_encontrado_valido": 68.48
+  },
+  {
+    "comuna": "Cobquecura",
+    "total_nomina": 88,
+    "encontrado_valido": 58,
+    "sin_registro": 26,
+    "requiere_revision": 2,
+    "no_cumple_criterio": 2,
+    "sin_run": 0,
+    "pct_encontrado_valido": 65.91
+  },
+  {
+    "comuna": "Portezuelo",
+    "total_nomina": 73,
+    "encontrado_valido": 62,
+    "sin_registro": 8,
+    "requiere_revision": 3,
+    "no_cumple_criterio": 0,
+    "sin_run": 0,
+    "pct_encontrado_valido": 84.93
+  },
+  {
+    "comuna": "Trehuaco",
+    "total_nomina": 73,
+    "encontrado_valido": 58,
+    "sin_registro": 11,
+    "requiere_revision": 2,
+    "no_cumple_criterio": 2,
+    "sin_run": 0,
+    "pct_encontrado_valido": 79.45
+  },
+  {
+    "comuna": "San Fabián",
+    "total_nomina": 70,
+    "encontrado_valido": 46,
+    "sin_registro": 19,
+    "requiere_revision": 2,
+    "no_cumple_criterio": 3,
+    "sin_run": 0,
+    "pct_encontrado_valido": 65.71
+  }
+]

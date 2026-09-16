@@ -1,0 +1,490 @@
+{
+  "total": 607,
+  "advertencia": "Este grupo NO forma parte de la nómina oficial de 6.480 personas. Fue identificado mediante cruce con Programaticas_2026.csv (RNI 2026). Su eventual incorporación a la nómina debe ser evaluada por la instancia responsable de la estrategia. Estas cifras NUNCA deben sumarse al universo de 6.480 en los indicadores principales.",
+  "por_comuna_residencia": [
+    {
+      "comuna_residencia": "Chillán",
+      "n": 259
+    },
+    {
+      "comuna_residencia": "Coelemu",
+      "n": 53
+    },
+    {
+      "comuna_residencia": "El Carmen",
+      "n": 49
+    },
+    {
+      "comuna_residencia": "Yungay",
+      "n": 31
+    },
+    {
+      "comuna_residencia": "San Carlos",
+      "n": 30
+    },
+    {
+      "comuna_residencia": "Bulnes",
+      "n": 28
+    },
+    {
+      "comuna_residencia": "Quillón",
+      "n": 26
+    },
+    {
+      "comuna_residencia": "Coihueco",
+      "n": 24
+    },
+    {
+      "comuna_residencia": "Chillán Viejo",
+      "n": 16
+    },
+    {
+      "comuna_residencia": "Quirihue",
+      "n": 16
+    },
+    {
+      "comuna_residencia": "Pinto",
+      "n": 15
+    },
+    {
+      "comuna_residencia": "Ñiquén",
+      "n": 13
+    },
+    {
+      "comuna_residencia": "Ránquil",
+      "n": 13
+    },
+    {
+      "comuna_residencia": "Trehuaco",
+      "n": 7
+    },
+    {
+      "comuna_residencia": "Portezuelo",
+      "n": 5
+    },
+    {
+      "comuna_residencia": "San Ignacio",
+      "n": 5
+    },
+    {
+      "comuna_residencia": "San Fabián",
+      "n": 5
+    },
+    {
+      "comuna_residencia": "Cobquecura",
+      "n": 4
+    },
+    {
+      "comuna_residencia": "Pemuco",
+      "n": 3
+    },
+    {
+      "comuna_residencia": "Ninhue",
+      "n": 3
+    },
+    {
+      "comuna_residencia": "San Nicolás",
+      "n": 2
+    }
+  ],
+  "por_establecimiento": [
+    {
+      "codigo_deis": "17-701",
+      "establecimiento": "Centro Comunitario de Salud Familiar Padre Hurtado",
+      "comuna_ocurrencia": "Chillán",
+      "n": 133
+    },
+    {
+      "codigo_deis": "17-301",
+      "establecimiento": "Centro de Salud Familiar Violeta Parra",
+      "comuna_ocurrencia": "Chillán",
+      "n": 50
+    },
+    {
+      "codigo_deis": "17-108",
+      "establecimiento": "Hospital Comunitario de Salud Familiar Dr. Eduardo Contreras Trabucco de Coelemu",
+      "comuna_ocurrencia": "Coelemu",
+      "n": 40
+    },
+    {
+      "codigo_deis": "17-302",
+      "establecimiento": "Centro de Salud Familiar San Ramón Nonato",
+      "comuna_ocurrencia": "Chillán",
+      "n": 31
+    },
+    {
+      "codigo_deis": "17-107",
+      "establecimiento": "Hospital Comunitario de Salud Familiar de El Carmen",
+      "comuna_ocurrencia": "El Carmen",
+      "n": 30
+    },
+    {
+      "codigo_deis": "17-104",
+      "establecimiento": "Hospital Comunitario de Salud Familiar Pedro Morales Campos (Yungay)",
+      "comuna_ocurrencia": "Yungay",
+      "n": 29
+    },
+    {
+      "codigo_deis": "17-306",
+      "establecimiento": "Centro de Salud Familiar Quillón",
+      "comuna_ocurrencia": "Quillón",
+      "n": 23
+    },
+    {
+      "codigo_deis": "17-329",
+      "establecimiento": "Centro de Salud Familiar Teresa Baldechi",
+      "comuna_ocurrencia": "San Carlos",
+      "n": 22
+    },
+    {
+      "codigo_deis": "17-103",
+      "establecimiento": "Hospital Comunitario de Salud Familiar de Bulnes",
+      "comuna_ocurrencia": "Bulnes",
+      "n": 17
+    },
+    {
+      "codigo_deis": "17-106",
+      "establecimiento": "Hospital Comunitario de Salud Familiar de Quirihue",
+      "comuna_ocurrencia": "Quirihue",
+      "n": 16
+    },
+    {
+      "codigo_deis": "17-439",
+      "establecimiento": "Posta de Salud Rural Ranguelmo",
+      "comuna_ocurrencia": "Coelemu",
+      "n": 13
+    },
+    {
+      "codigo_deis": "17-303",
+      "establecimiento": "Centro de Salud Familiar Ultraestación Dr. Raúl San Martín González",
+      "comuna_ocurrencia": "Chillán",
+      "n": 13
+    },
+    {
+      "codigo_deis": "17-304",
+      "establecimiento": "Centro de Salud Familiar Isabel Riquelme",
+      "comuna_ocurrencia": "Chillán",
+      "n": 13
+    },
+    {
+      "codigo_deis": "17-316",
+      "establecimiento": "Centro de Salud Familiar Ñipas",
+      "comuna_ocurrencia": "Ránquil",
+      "n": 13
+    },
+    {
+      "codigo_deis": "17-318",
+      "establecimiento": "Centro de Salud Familiar Michelle Chandía Alarcón",
+      "comuna_ocurrencia": "Coihueco",
+      "n": 12
+    },
+    {
+      "codigo_deis": "17-317",
+      "establecimiento": "Centro de Salud Familiar Pinto",
+      "comuna_ocurrencia": "Pinto",
+      "n": 12
+    },
+    {
+      "codigo_deis": "17-328",
+      "establecimiento": "Centro de Salud Familiar Dr. Federico Puga",
+      "comuna_ocurrencia": "Chillán Viejo",
+      "n": 9
+    },
+    {
+      "codigo_deis": "17-330",
+      "establecimiento": "Centro de Salud Familiar Sol de Oriente",
+      "comuna_ocurrencia": "Chillán",
+      "n": 9
+    },
+    {
+      "codigo_deis": "17-313",
+      "establecimiento": "Centro de Salud Familiar Ñiquén",
+      "comuna_ocurrencia": "Ñiquén",
+      "n": 9
+    },
+    {
+      "codigo_deis": "17-326",
+      "establecimiento": "Centro de Salud Familiar Santa Clara",
+      "comuna_ocurrencia": "Bulnes",
+      "n": 8
+    },
+    {
+      "codigo_deis": "17-325",
+      "establecimiento": "Centro de Salud Familiar Luis Montecinos",
+      "comuna_ocurrencia": "Coihueco",
+      "n": 8
+    },
+    {
+      "codigo_deis": "17-475",
+      "establecimiento": "Posta de Salud Rural Castañal",
+      "comuna_ocurrencia": "El Carmen",
+      "n": 7
+    },
+    {
+      "codigo_deis": "17-324",
+      "establecimiento": "Centro de Salud Familiar Los Volcanes",
+      "comuna_ocurrencia": "Chillán",
+      "n": 7
+    },
+    {
+      "codigo_deis": "17-327",
+      "establecimiento": "Centro de Salud Familiar Treguaco",
+      "comuna_ocurrencia": "Treguaco",
+      "n": 7
+    },
+    {
+      "codigo_deis": "17-311",
+      "establecimiento": "Centro de Salud Familiar Dr. José Duran Trujillo",
+      "comuna_ocurrencia": "San Carlos",
+      "n": 6
+    },
+    {
+      "codigo_deis": "17-477",
+      "establecimiento": "Posta de Salud Rural Chamizal",
+      "comuna_ocurrencia": "El Carmen",
+      "n": 5
+    },
+    {
+      "codigo_deis": "17-305",
+      "establecimiento": "Centro de Salud Familiar Portezuelo",
+      "comuna_ocurrencia": "Portezuelo",
+      "n": 5
+    },
+    {
+      "codigo_deis": "17-309",
+      "establecimiento": "Centro de Salud Familiar San Fabián",
+      "comuna_ocurrencia": "San Fabián",
+      "n": 5
+    },
+    {
+      "codigo_deis": "17-322",
+      "establecimiento": "Centro de Salud Familiar Quinchamalí",
+      "comuna_ocurrencia": "Chillán",
+      "n": 4
+    },
+    {
+      "codigo_deis": "17-238",
+      "establecimiento": "Megasalud Chillán",
+      "comuna_ocurrencia": "Chillán",
+      "n": 4
+    },
+    {
+      "codigo_deis": "17-310",
+      "establecimiento": "Centro de Salud Familiar Pemuco",
+      "comuna_ocurrencia": "Pemuco",
+      "n": 3
+    },
+    {
+      "codigo_deis": "17-331",
+      "establecimiento": "Centro de Salud Familiar Dra. Michelle Bachelet Jeria",
+      "comuna_ocurrencia": "Chillán Viejo",
+      "n": 3
+    },
+    {
+      "codigo_deis": "17-314",
+      "establecimiento": "Centro de Salud Familiar Dr. David Benavente de Ninhue",
+      "comuna_ocurrencia": "Ninhue",
+      "n": 3
+    },
+    {
+      "codigo_deis": "17-307",
+      "establecimiento": "Centro de Salud Familiar Cobquecura",
+      "comuna_ocurrencia": "Cobquecura",
+      "n": 3
+    },
+    {
+      "codigo_deis": "17-409",
+      "establecimiento": "Posta de Salud Rural Recinto",
+      "comuna_ocurrencia": "Pinto",
+      "n": 3
+    },
+    {
+      "codigo_deis": "17-706",
+      "establecimiento": "Centro Comunitario de Salud Familiar El Casino",
+      "comuna_ocurrencia": "Quillón",
+      "n": 2
+    },
+    {
+      "codigo_deis": "17-205",
+      "establecimiento": "Clínica Las Amapolas",
+      "comuna_ocurrencia": "Chillán",
+      "n": 2
+    },
+    {
+      "codigo_deis": "17-225",
+      "establecimiento": "Clínica Chillán",
+      "comuna_ocurrencia": "Chillán",
+      "n": 2
+    },
+    {
+      "codigo_deis": "17-426",
+      "establecimiento": "Centro Comunitario de Salud Familiar Tres Esquinas",
+      "comuna_ocurrencia": "Bulnes",
+      "n": 2
+    },
+    {
+      "codigo_deis": "17-315",
+      "establecimiento": "Centro de Salud Familiar Campanario",
+      "comuna_ocurrencia": "Yungay",
+      "n": 2
+    },
+    {
+      "codigo_deis": "17-308",
+      "establecimiento": "CESFAM DR. ALFONSO PARRA CARRIEL",
+      "comuna_ocurrencia": "San Ignacio",
+      "n": 2
+    },
+    {
+      "codigo_deis": "17-319",
+      "establecimiento": "Centro de Salud Familiar Quiriquina",
+      "comuna_ocurrencia": "San Ignacio",
+      "n": 2
+    },
+    {
+      "codigo_deis": "17-468",
+      "establecimiento": "Posta de Salud Rural Belén (Ñiquen)",
+      "comuna_ocurrencia": "Ñiquén",
+      "n": 1
+    },
+    {
+      "codigo_deis": "17-473",
+      "establecimiento": "Posta de Salud Rural Capilla Sur",
+      "comuna_ocurrencia": "El Carmen",
+      "n": 1
+    },
+    {
+      "codigo_deis": "17-101",
+      "establecimiento": "Hospital Clínico Herminda Martín (Chillán)",
+      "comuna_ocurrencia": "Chillán",
+      "n": 1
+    },
+    {
+      "codigo_deis": "17-422",
+      "establecimiento": "Posta de Salud Rural La Gloria",
+      "comuna_ocurrencia": "Ñiquén",
+      "n": 1
+    },
+    {
+      "codigo_deis": "17-415",
+      "establecimiento": "Centro Comunitario de Salud Familiar Cachapoal",
+      "comuna_ocurrencia": "San Carlos",
+      "n": 1
+    },
+    {
+      "codigo_deis": "17-455",
+      "establecimiento": "Consultorio General Rural de Pueblo Seco",
+      "comuna_ocurrencia": "San Ignacio",
+      "n": 1
+    },
+    {
+      "codigo_deis": "17-406",
+      "establecimiento": "Posta de Salud Rural Minas del Prado",
+      "comuna_ocurrencia": "Coihueco",
+      "n": 1
+    },
+    {
+      "codigo_deis": "17-435",
+      "establecimiento": "Posta de Salud Rural Trehualemu",
+      "comuna_ocurrencia": "El Carmen",
+      "n": 1
+    },
+    {
+      "codigo_deis": "201735",
+      "establecimiento": "Vacunatorio Inmuniza",
+      "comuna_ocurrencia": "Chillán",
+      "n": 1
+    },
+    {
+      "codigo_deis": "17-418",
+      "establecimiento": "Centro Comunitario de Salud Familiar Chacay",
+      "comuna_ocurrencia": "Ñiquén",
+      "n": 1
+    },
+    {
+      "codigo_deis": "17-405",
+      "establecimiento": "Posta de Salud Rural Capilla Cato",
+      "comuna_ocurrencia": "Chillán",
+      "n": 1
+    },
+    {
+      "codigo_deis": "17-438",
+      "establecimiento": "Posta de Salud Rural Huemul",
+      "comuna_ocurrencia": "El Carmen",
+      "n": 1
+    },
+    {
+      "codigo_deis": "17-476",
+      "establecimiento": "Posta de Salud Rural Las Hormigas",
+      "comuna_ocurrencia": "El Carmen",
+      "n": 1
+    },
+    {
+      "codigo_deis": "17-312",
+      "establecimiento": "Centro de Salud Familiar San Nicolás",
+      "comuna_ocurrencia": "San Nicolás",
+      "n": 1
+    },
+    {
+      "codigo_deis": "17-436",
+      "establecimiento": "Posta de Salud Rural Pedregal de Zapallar",
+      "comuna_ocurrencia": "El Carmen",
+      "n": 1
+    },
+    {
+      "codigo_deis": "17-464",
+      "establecimiento": "Posta de Salud Rural Zemita",
+      "comuna_ocurrencia": "Ñiquén",
+      "n": 1
+    },
+    {
+      "codigo_deis": "17-474",
+      "establecimiento": "Posta de Salud Rural Agua Santa",
+      "comuna_ocurrencia": "El Carmen",
+      "n": 1
+    },
+    {
+      "codigo_deis": "17-452",
+      "establecimiento": "Posta de Salud Rural Colmuyao",
+      "comuna_ocurrencia": "Cobquecura",
+      "n": 1
+    }
+  ],
+  "por_mes": [
+    {
+      "mes": "2026-01",
+      "n": 4
+    },
+    {
+      "mes": "2026-02",
+      "n": 6
+    },
+    {
+      "mes": "2026-03",
+      "n": 205
+    },
+    {
+      "mes": "2026-04",
+      "n": 136
+    },
+    {
+      "mes": "2026-05",
+      "n": 125
+    },
+    {
+      "mes": "2026-06",
+      "n": 69
+    },
+    {
+      "mes": "2026-07",
+      "n": 34
+    },
+    {
+      "mes": "2026-08",
+      "n": 22
+    },
+    {
+      "mes": "2026-09",
+      "n": 6
+    }
+  ]
+}
