@@ -74,6 +74,17 @@ PALABRAS_SENSIBLES = [
     "FECHA.DE.NACIMIENTO", "CALLE.RESIDENCIAL", "NUMERO.RESIDENCIAL",
     "NOMBRE", "APELLIDO", "DIRECCION", "DOMICILIO", "RUT", "TELEFONO", "EMAIL",
 ]
+# Se buscan como palabra completa (\b...\b), no como substring: un chequeo por
+# substring simple ("RUT" in texto) da falsos positivos con palabras legitimas
+# que la contienen, p.ej. "ruta_archivo_procesado" contiene "rut" pero no es el
+# dato/columna RUT. Con limite de palabra, "ruta_archivo_procesado" NO calza
+# (no hay separador entre "t" y "a"), mientras que un campo real como "rut" o
+# "nombre" escrito como clave/valor JSON (siempre rodeado de comillas u otros
+# caracteres no alfanumericos) SI seguiria siendo detectado sin cambios.
+PATRONES_SENSIBLES = [
+    (palabra, re.compile(r"\b" + re.escape(palabra) + r"\b", re.IGNORECASE))
+    for palabra in PALABRAS_SENSIBLES
+]
 
 # Allowlist: unicas rutas que este script puede llevar a `git add`. Cualquier
 # otra ruta detectada por `git status --porcelain` aborta todo el proceso.
@@ -143,8 +154,8 @@ def validar_data_independiente():
             problemas.append(f"data/{nombre}: contiene agrupacion de establecimientos (no debe aplicarse)")
         if PATRON_DV_TOKEN.search(texto):
             problemas.append(f"data/{nombre}: contiene el token 'DV'")
-        for palabra in PALABRAS_SENSIBLES:
-            if palabra.upper() in texto.upper():
+        for palabra, patron in PATRONES_SENSIBLES:
+            if patron.search(texto):
                 problemas.append(f"data/{nombre}: contiene variable sensible '{palabra}'")
 
     if problemas:
