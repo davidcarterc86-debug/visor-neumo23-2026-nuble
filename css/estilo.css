@@ -267,3 +267,29 @@ footer.pie {
   padding: 1px 6px;
   font-size: 0.72rem;
 }
+
+.filtro-fila {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.filtro-fila label {
+  font-weight: 600;
+  color: var(--azul-principal);
+  font-size: 0.9rem;
+}
+.filtro-fila select {
+  font-family: inherit;
+  font-size: 0.9rem;
+  color: var(--gris-texto);
+  border: 1px solid var(--gris-borde);
+  border-radius: var(--radio);
+  padding: 6px 10px;
+  background: #fff;
+  cursor: pointer;
+}
+.filtro-fila select:focus {
+  outline: 2px solid var(--azul-claro);
+  outline-offset: 1px;
+}

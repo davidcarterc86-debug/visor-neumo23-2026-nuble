@@ -181,9 +181,25 @@ function pintarEvolucion(meses) {
 }
 
 /* ---------------- 4. ESTABLECIMIENTOS ---------------- */
-function pintarEstablecimientos(lista) {
+let ESTABLECIMIENTOS_DATA = [];
+// La base RNI escribe "Treguaco" (error de tipeo conocido) en vez de "Trehuaco"
+// (nombre oficial de la comuna). El selector usa el nombre oficial; esta alias
+// permite que el filtro igual encuentre los establecimientos correspondientes.
+const ALIAS_COMUNA_ESTABLECIMIENTOS = { "Trehuaco": "Treguaco" };
+
+function coincideComuna(comunaDato, comunaSeleccionada) {
+  if (comunaSeleccionada === "__TODAS__") return true;
+  if (comunaDato === comunaSeleccionada) return true;
+  return ALIAS_COMUNA_ESTABLECIMIENTOS[comunaSeleccionada] === comunaDato;
+}
+
+function renderTablaEstablecimientos(lista) {
   const tbody = document.getElementById("tabla-establecimientos-body");
   tbody.innerHTML = "";
+  if (lista.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="4" style="text-align:center; color:var(--gris-medio); padding:14px;">Sin establecimientos para esta comuna.</td></tr>';
+    return;
+  }
   const maxN = Math.max(...lista.map((e) => e.total_encontrados));
   lista.forEach((e) => {
     const tr = document.createElement("tr");
@@ -196,6 +212,20 @@ function pintarEstablecimientos(lista) {
     `;
     tbody.appendChild(tr);
   });
+}
+
+function pintarEstablecimientos(lista) {
+  ESTABLECIMIENTOS_DATA = lista;
+  renderTablaEstablecimientos(lista);
+
+  const selector = document.getElementById("filtro-comuna-establecimientos");
+  if (selector) {
+    selector.value = "__TODAS__";
+    selector.addEventListener("change", () => {
+      const filtrada = ESTABLECIMIENTOS_DATA.filter((e) => coincideComuna(e.comuna_ocurrencia, selector.value));
+      renderTablaEstablecimientos(filtrada);
+    });
+  }
 }
 
 /* ---------------- 5. HALLAZGO FUERA DE NOMINA ---------------- */
