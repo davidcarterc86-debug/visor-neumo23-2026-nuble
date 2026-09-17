@@ -32,22 +32,22 @@
   {
     "comuna": "Coihueco",
     "total_nomina": 344,
-    "encontrado_valido": 223,
-    "sin_registro": 110,
+    "encontrado_valido": 225,
+    "sin_registro": 108,
     "requiere_revision": 7,
     "no_cumple_criterio": 4,
     "sin_run": 0,
-    "pct_encontrado_valido": 64.83
+    "pct_encontrado_valido": 65.41
   },
   {
     "comuna": "Bulnes",
     "total_nomina": 332,
-    "encontrado_valido": 203,
-    "sin_registro": 114,
+    "encontrado_valido": 204,
+    "sin_registro": 113,
     "requiere_revision": 4,
     "no_cumple_criterio": 10,
     "sin_run": 1,
-    "pct_encontrado_valido": 61.14
+    "pct_encontrado_valido": 61.45
   },
   {
     "comuna": "Quillón",
@@ -152,12 +152,12 @@
   {
     "comuna": "Fuera de la Región de Ñuble (agregado)",
     "total_nomina": 110,
-    "encontrado_valido": 50,
-    "sin_registro": 51,
+    "encontrado_valido": 51,
+    "sin_registro": 50,
     "requiere_revision": 1,
     "no_cumple_criterio": 8,
     "sin_run": 0,
-    "pct_encontrado_valido": 45.45
+    "pct_encontrado_valido": 46.36
   },
   {
     "comuna": "Ránquil",

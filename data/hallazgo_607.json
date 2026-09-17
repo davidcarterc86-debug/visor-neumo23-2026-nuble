@@ -1,5 +1,5 @@
 {
-  "total": 607,
+  "total": 608,
   "advertencia": "Este grupo NO forma parte de la nómina oficial de 6.480 personas. Fue identificado mediante cruce con Programaticas_2026.csv (RNI 2026). Su eventual incorporación a la nómina debe ser evaluada por la instancia responsable de la estrategia. Estas cifras NUNCA deben sumarse al universo de 6.480 en los indicadores principales.",
   "por_comuna_residencia": [
     {
@@ -36,7 +36,7 @@
     },
     {
       "comuna_residencia": "Chillán Viejo",
-      "n": 16
+      "n": 17
     },
     {
       "comuna_residencia": "Quirihue",
@@ -149,15 +149,15 @@
       "n": 16
     },
     {
-      "codigo_deis": "17-439",
-      "establecimiento": "Posta de Salud Rural Ranguelmo",
-      "comuna_ocurrencia": "Coelemu",
-      "n": 13
-    },
-    {
       "codigo_deis": "17-303",
       "establecimiento": "Centro de Salud Familiar Ultraestación Dr. Raúl San Martín González",
       "comuna_ocurrencia": "Chillán",
+      "n": 13
+    },
+    {
+      "codigo_deis": "17-439",
+      "establecimiento": "Posta de Salud Rural Ranguelmo",
+      "comuna_ocurrencia": "Coelemu",
       "n": 13
     },
     {
@@ -188,7 +188,7 @@
       "codigo_deis": "17-328",
       "establecimiento": "Centro de Salud Familiar Dr. Federico Puga",
       "comuna_ocurrencia": "Chillán Viejo",
-      "n": 9
+      "n": 10
     },
     {
       "codigo_deis": "17-330",
@@ -484,7 +484,7 @@
     },
     {
       "mes": "2026-09",
-      "n": 6
+      "n": 7
     }
   ]
 }
