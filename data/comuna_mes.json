@@ -1,8 +1,48 @@
 [
   {
-    "comuna": "San Carlos",
+    "comuna": "Coihueco",
     "mes": "2026-03",
-    "n": 70
+    "n": 67
+  },
+  {
+    "comuna": "Coihueco",
+    "mes": "2026-05",
+    "n": 19
+  },
+  {
+    "comuna": "Coihueco",
+    "mes": "2026-04",
+    "n": 36
+  },
+  {
+    "comuna": "Coihueco",
+    "mes": "2026-08",
+    "n": 27
+  },
+  {
+    "comuna": "Coihueco",
+    "mes": "2026-06",
+    "n": 9
+  },
+  {
+    "comuna": "Coihueco",
+    "mes": "2026-02",
+    "n": 26
+  },
+  {
+    "comuna": "Coihueco",
+    "mes": "2026-07",
+    "n": 12
+  },
+  {
+    "comuna": "Coihueco",
+    "mes": "2026-09",
+    "n": 25
+  },
+  {
+    "comuna": "Coihueco",
+    "mes": "2026-01",
+    "n": 2
   },
   {
     "comuna": "San Carlos",
@@ -11,8 +51,13 @@
   },
   {
     "comuna": "San Carlos",
-    "mes": "2026-06",
-    "n": 89
+    "mes": "2026-03",
+    "n": 70
+  },
+  {
+    "comuna": "San Carlos",
+    "mes": "2026-05",
+    "n": 76
   },
   {
     "comuna": "San Carlos",
@@ -31,13 +76,8 @@
   },
   {
     "comuna": "San Carlos",
-    "mes": "2026-09",
-    "n": 4
-  },
-  {
-    "comuna": "San Carlos",
-    "mes": "2026-05",
-    "n": 76
+    "mes": "2026-06",
+    "n": 89
   },
   {
     "comuna": "San Carlos",
@@ -45,119 +85,24 @@
     "n": 30
   },
   {
-    "comuna": "Chillán",
-    "mes": "2026-02",
-    "n": 82
-  },
-  {
-    "comuna": "Chillán",
-    "mes": "2026-07",
-    "n": 47
-  },
-  {
-    "comuna": "Chillán",
-    "mes": "2026-03",
-    "n": 419
-  },
-  {
-    "comuna": "Chillán",
-    "mes": "2026-05",
-    "n": 172
-  },
-  {
-    "comuna": "Chillán",
-    "mes": "2026-04",
-    "n": 281
-  },
-  {
-    "comuna": "Chillán",
-    "mes": "2026-06",
-    "n": 101
-  },
-  {
-    "comuna": "Chillán",
-    "mes": "2026-08",
-    "n": 123
-  },
-  {
-    "comuna": "Chillán",
+    "comuna": "San Carlos",
     "mes": "2026-09",
-    "n": 11
+    "n": 4
   },
   {
-    "comuna": "Chillán",
-    "mes": "2026-01",
-    "n": 14
-  },
-  {
-    "comuna": "Ninhue",
-    "mes": "2026-03",
-    "n": 21
-  },
-  {
-    "comuna": "Ninhue",
+    "comuna": "Quirihue",
     "mes": "2026-05",
-    "n": 37
-  },
-  {
-    "comuna": "Ninhue",
-    "mes": "2026-04",
-    "n": 18
-  },
-  {
-    "comuna": "Ninhue",
-    "mes": "2026-06",
-    "n": 6
-  },
-  {
-    "comuna": "Ninhue",
-    "mes": "2026-07",
-    "n": 2
-  },
-  {
-    "comuna": "Coihueco",
-    "mes": "2026-03",
-    "n": 67
-  },
-  {
-    "comuna": "Coihueco",
-    "mes": "2026-02",
-    "n": 26
-  },
-  {
-    "comuna": "Coihueco",
-    "mes": "2026-04",
-    "n": 36
-  },
-  {
-    "comuna": "Coihueco",
-    "mes": "2026-05",
-    "n": 19
-  },
-  {
-    "comuna": "Coihueco",
-    "mes": "2026-07",
-    "n": 12
-  },
-  {
-    "comuna": "Coihueco",
-    "mes": "2026-08",
-    "n": 27
-  },
-  {
-    "comuna": "Coihueco",
-    "mes": "2026-09",
-    "n": 25
-  },
-  {
-    "comuna": "Coihueco",
-    "mes": "2026-06",
     "n": 9
   },
   {
-    "comuna": "Coihueco",
-    "mes": "2026-01",
-    "n": 2
+    "comuna": "Quirihue",
+    "mes": "2026-02",
+    "n": 8
+  },
+  {
+    "comuna": "Quirihue",
+    "mes": "2026-04",
+    "n": 17
   },
   {
     "comuna": "Quirihue",
@@ -171,103 +116,138 @@
   },
   {
     "comuna": "Quirihue",
-    "mes": "2026-04",
-    "n": 17
-  },
-  {
-    "comuna": "Quirihue",
     "mes": "2026-06",
     "n": 4
   },
   {
     "comuna": "Quirihue",
-    "mes": "2026-05",
-    "n": 9
-  },
-  {
-    "comuna": "Quirihue",
     "mes": "2026-07",
     "n": 3
   },
   {
-    "comuna": "Quirihue",
-    "mes": "2026-02",
-    "n": 8
-  },
-  {
-    "comuna": "Pemuco",
-    "mes": "2026-02",
-    "n": 19
-  },
-  {
-    "comuna": "Pemuco",
-    "mes": "2026-09",
-    "n": 6
-  },
-  {
-    "comuna": "Pemuco",
-    "mes": "2026-05",
-    "n": 6
-  },
-  {
-    "comuna": "Pemuco",
-    "mes": "2026-03",
-    "n": 24
-  },
-  {
-    "comuna": "Pemuco",
+    "comuna": "Coelemu",
     "mes": "2026-04",
-    "n": 12
+    "n": 38
   },
   {
-    "comuna": "Pemuco",
-    "mes": "2026-07",
+    "comuna": "Coelemu",
+    "mes": "2026-05",
     "n": 3
   },
   {
-    "comuna": "Pemuco",
-    "mes": "2026-06",
-    "n": 6
-  },
-  {
-    "comuna": "Pemuco",
+    "comuna": "Coelemu",
     "mes": "2026-08",
-    "n": 5
+    "n": 3
   },
   {
-    "comuna": "Ránquil",
+    "comuna": "Coelemu",
     "mes": "2026-02",
-    "n": 12
+    "n": 7
   },
   {
-    "comuna": "Ránquil",
-    "mes": "2026-04",
-    "n": 14
-  },
-  {
-    "comuna": "Ránquil",
-    "mes": "2026-03",
+    "comuna": "Coelemu",
+    "mes": "2026-07",
     "n": 16
   },
   {
-    "comuna": "Ránquil",
-    "mes": "2026-07",
+    "comuna": "Coelemu",
+    "mes": "2026-03",
+    "n": 17
+  },
+  {
+    "comuna": "Coelemu",
+    "mes": "2026-06",
     "n": 3
   },
   {
-    "comuna": "Ránquil",
-    "mes": "2026-09",
-    "n": 1
+    "comuna": "Chillán Viejo",
+    "mes": "2026-03",
+    "n": 53
   },
   {
-    "comuna": "Ránquil",
+    "comuna": "Chillán Viejo",
+    "mes": "2026-01",
+    "n": 38
+  },
+  {
+    "comuna": "Chillán Viejo",
+    "mes": "2026-02",
+    "n": 56
+  },
+  {
+    "comuna": "Chillán Viejo",
+    "mes": "2026-04",
+    "n": 39
+  },
+  {
+    "comuna": "Chillán Viejo",
+    "mes": "2026-07",
+    "n": 10
+  },
+  {
+    "comuna": "Chillán Viejo",
     "mes": "2026-05",
-    "n": 11
+    "n": 24
   },
   {
-    "comuna": "Ránquil",
+    "comuna": "Chillán Viejo",
+    "mes": "2026-06",
+    "n": 22
+  },
+  {
+    "comuna": "Chillán Viejo",
     "mes": "2026-08",
-    "n": 1
+    "n": 7
+  },
+  {
+    "comuna": "Chillán Viejo",
+    "mes": "2026-09",
+    "n": 3
+  },
+  {
+    "comuna": "Bulnes",
+    "mes": "2026-03",
+    "n": 71
+  },
+  {
+    "comuna": "Bulnes",
+    "mes": "2026-04",
+    "n": 30
+  },
+  {
+    "comuna": "Bulnes",
+    "mes": "2026-05",
+    "n": 47
+  },
+  {
+    "comuna": "Bulnes",
+    "mes": "2026-06",
+    "n": 18
+  },
+  {
+    "comuna": "Bulnes",
+    "mes": "2026-08",
+    "n": 16
+  },
+  {
+    "comuna": "Bulnes",
+    "mes": "2026-07",
+    "n": 8
+  },
+  {
+    "comuna": "Bulnes",
+    "mes": "2026-02",
+    "n": 6
+  },
+  {
+    "comuna": "Bulnes",
+    "mes": "2026-09",
+    "n": 7
+  },
+  {
+    "comuna": "Quillón",
+    "mes": "2026-04",
+    "n": 25
   },
   {
     "comuna": "Quillón",
@@ -286,8 +266,8 @@
   },
   {
     "comuna": "Quillón",
-    "mes": "2026-04",
-    "n": 25
+    "mes": "2026-07",
+    "n": 3
   },
   {
     "comuna": "Quillón",
@@ -296,143 +276,8 @@
   },
   {
     "comuna": "Quillón",
-    "mes": "2026-07",
-    "n": 3
-  },
-  {
-    "comuna": "Quillón",
     "mes": "2026-02",
     "n": 1
-  },
-  {
-    "comuna": "Chillán Viejo",
-    "mes": "2026-08",
-    "n": 7
-  },
-  {
-    "comuna": "Chillán Viejo",
-    "mes": "2026-04",
-    "n": 39
-  },
-  {
-    "comuna": "Chillán Viejo",
-    "mes": "2026-03",
-    "n": 53
-  },
-  {
-    "comuna": "Chillán Viejo",
-    "mes": "2026-02",
-    "n": 56
-  },
-  {
-    "comuna": "Chillán Viejo",
-    "mes": "2026-01",
-    "n": 38
-  },
-  {
-    "comuna": "Chillán Viejo",
-    "mes": "2026-06",
-    "n": 22
-  },
-  {
-    "comuna": "Chillán Viejo",
-    "mes": "2026-05",
-    "n": 24
-  },
-  {
-    "comuna": "Chillán Viejo",
-    "mes": "2026-07",
-    "n": 10
-  },
-  {
-    "comuna": "Chillán Viejo",
-    "mes": "2026-09",
-    "n": 3
-  },
-  {
-    "comuna": "Yungay",
-    "mes": "2026-05",
-    "n": 16
-  },
-  {
-    "comuna": "Yungay",
-    "mes": "2026-02",
-    "n": 30
-  },
-  {
-    "comuna": "Yungay",
-    "mes": "2026-03",
-    "n": 41
-  },
-  {
-    "comuna": "Yungay",
-    "mes": "2026-04",
-    "n": 24
-  },
-  {
-    "comuna": "Yungay",
-    "mes": "2026-06",
-    "n": 19
-  },
-  {
-    "comuna": "Yungay",
-    "mes": "2026-08",
-    "n": 1
-  },
-  {
-    "comuna": "Yungay",
-    "mes": "2026-07",
-    "n": 5
-  },
-  {
-    "comuna": "Yungay",
-    "mes": "2026-01",
-    "n": 1
-  },
-  {
-    "comuna": "Ñiquén",
-    "mes": "2026-04",
-    "n": 25
-  },
-  {
-    "comuna": "Ñiquén",
-    "mes": "2026-02",
-    "n": 22
-  },
-  {
-    "comuna": "Ñiquén",
-    "mes": "2026-03",
-    "n": 21
-  },
-  {
-    "comuna": "Ñiquén",
-    "mes": "2026-07",
-    "n": 15
-  },
-  {
-    "comuna": "Ñiquén",
-    "mes": "2026-01",
-    "n": 9
-  },
-  {
-    "comuna": "Ñiquén",
-    "mes": "2026-06",
-    "n": 1
-  },
-  {
-    "comuna": "Ñiquén",
-    "mes": "2026-05",
-    "n": 7
-  },
-  {
-    "comuna": "Ñiquén",
-    "mes": "2026-08",
-    "n": 5
-  },
-  {
-    "comuna": "Ñiquén",
-    "mes": "2026-09",
-    "n": 3
   },
   {
     "comuna": "Cobquecura",
@@ -441,23 +286,8 @@
   },
   {
     "comuna": "Cobquecura",
-    "mes": "2026-08",
-    "n": 3
-  },
-  {
-    "comuna": "Cobquecura",
-    "mes": "2026-09",
+    "mes": "2026-02",
     "n": 1
-  },
-  {
-    "comuna": "Cobquecura",
-    "mes": "2026-05",
-    "n": 4
-  },
-  {
-    "comuna": "Cobquecura",
-    "mes": "2026-04",
-    "n": 16
   },
   {
     "comuna": "Cobquecura",
@@ -466,228 +296,108 @@
   },
   {
     "comuna": "Cobquecura",
-    "mes": "2026-07",
-    "n": 2
+    "mes": "2026-04",
+    "n": 16
   },
   {
     "comuna": "Cobquecura",
-    "mes": "2026-02",
-    "n": 1
-  },
-  {
-    "comuna": "San Ignacio",
-    "mes": "2026-03",
-    "n": 37
-  },
-  {
-    "comuna": "San Ignacio",
-    "mes": "2026-06",
-    "n": 21
-  },
-  {
-    "comuna": "San Ignacio",
-    "mes": "2026-04",
-    "n": 29
-  },
-  {
-    "comuna": "San Ignacio",
-    "mes": "2026-01",
-    "n": 2
-  },
-  {
-    "comuna": "San Ignacio",
     "mes": "2026-05",
-    "n": 11
-  },
-  {
-    "comuna": "San Ignacio",
-    "mes": "2026-02",
-    "n": 18
-  },
-  {
-    "comuna": "San Ignacio",
-    "mes": "2026-07",
-    "n": 17
-  },
-  {
-    "comuna": "San Ignacio",
-    "mes": "2026-08",
     "n": 4
   },
   {
-    "comuna": "San Ignacio",
+    "comuna": "Cobquecura",
+    "mes": "2026-08",
+    "n": 3
+  },
+  {
+    "comuna": "Cobquecura",
     "mes": "2026-09",
     "n": 1
   },
   {
-    "comuna": "Bulnes",
-    "mes": "2026-03",
-    "n": 71
-  },
-  {
-    "comuna": "Bulnes",
-    "mes": "2026-06",
-    "n": 18
-  },
-  {
-    "comuna": "Bulnes",
-    "mes": "2026-04",
-    "n": 30
-  },
-  {
-    "comuna": "Bulnes",
-    "mes": "2026-02",
-    "n": 6
-  },
-  {
-    "comuna": "Bulnes",
-    "mes": "2026-05",
-    "n": 47
-  },
-  {
-    "comuna": "Bulnes",
+    "comuna": "Cobquecura",
     "mes": "2026-07",
-    "n": 8
+    "n": 2
   },
   {
-    "comuna": "Bulnes",
-    "mes": "2026-09",
-    "n": 7
-  },
-  {
-    "comuna": "Bulnes",
-    "mes": "2026-08",
-    "n": 16
-  },
-  {
-    "comuna": "Portezuelo",
-    "mes": "2026-03",
-    "n": 7
-  },
-  {
-    "comuna": "Portezuelo",
+    "comuna": "Chillán",
     "mes": "2026-04",
-    "n": 27
+    "n": 281
   },
   {
-    "comuna": "Portezuelo",
+    "comuna": "Chillán",
+    "mes": "2026-08",
+    "n": 123
+  },
+  {
+    "comuna": "Chillán",
+    "mes": "2026-03",
+    "n": 419
+  },
+  {
+    "comuna": "Chillán",
+    "mes": "2026-05",
+    "n": 172
+  },
+  {
+    "comuna": "Chillán",
+    "mes": "2026-02",
+    "n": 82
+  },
+  {
+    "comuna": "Chillán",
+    "mes": "2026-06",
+    "n": 101
+  },
+  {
+    "comuna": "Chillán",
     "mes": "2026-01",
-    "n": 2
-  },
-  {
-    "comuna": "Portezuelo",
-    "mes": "2026-05",
-    "n": 10
-  },
-  {
-    "comuna": "Portezuelo",
-    "mes": "2026-06",
-    "n": 10
-  },
-  {
-    "comuna": "Portezuelo",
-    "mes": "2026-07",
-    "n": 2
-  },
-  {
-    "comuna": "Portezuelo",
-    "mes": "2026-02",
-    "n": 3
-  },
-  {
-    "comuna": "Portezuelo",
-    "mes": "2026-08",
-    "n": 1
-  },
-  {
-    "comuna": "San Nicolás",
-    "mes": "2026-08",
-    "n": 8
-  },
-  {
-    "comuna": "San Nicolás",
-    "mes": "2026-02",
-    "n": 46
-  },
-  {
-    "comuna": "San Nicolás",
-    "mes": "2026-05",
-    "n": 16
-  },
-  {
-    "comuna": "San Nicolás",
-    "mes": "2026-07",
-    "n": 15
-  },
-  {
-    "comuna": "San Nicolás",
-    "mes": "2026-03",
-    "n": 23
-  },
-  {
-    "comuna": "San Nicolás",
-    "mes": "2026-06",
-    "n": 18
-  },
-  {
-    "comuna": "San Nicolás",
-    "mes": "2026-01",
-    "n": 1
-  },
-  {
-    "comuna": "San Nicolás",
-    "mes": "2026-09",
-    "n": 1
-  },
-  {
-    "comuna": "San Nicolás",
-    "mes": "2026-04",
-    "n": 2
-  },
-  {
-    "comuna": "Coelemu",
-    "mes": "2026-04",
-    "n": 38
-  },
-  {
-    "comuna": "Coelemu",
-    "mes": "2026-07",
-    "n": 16
-  },
-  {
-    "comuna": "Coelemu",
-    "mes": "2026-03",
-    "n": 17
-  },
-  {
-    "comuna": "Coelemu",
-    "mes": "2026-06",
-    "n": 3
-  },
-  {
-    "comuna": "Coelemu",
-    "mes": "2026-08",
-    "n": 3
-  },
-  {
-    "comuna": "Coelemu",
-    "mes": "2026-02",
-    "n": 7
-  },
-  {
-    "comuna": "Coelemu",
-    "mes": "2026-05",
-    "n": 3
-  },
-  {
-    "comuna": "Pinto",
-    "mes": "2026-02",
     "n": 14
   },
   {
-    "comuna": "Pinto",
-    "mes": "2026-05",
+    "comuna": "Chillán",
+    "mes": "2026-07",
+    "n": 47
+  },
+  {
+    "comuna": "Chillán",
+    "mes": "2026-09",
+    "n": 11
+  },
+  {
+    "comuna": "Fuera de la Región de Ñuble (agregado)",
+    "mes": "2026-04",
     "n": 10
+  },
+  {
+    "comuna": "Fuera de la Región de Ñuble (agregado)",
+    "mes": "2026-05",
+    "n": 6
+  },
+  {
+    "comuna": "Fuera de la Región de Ñuble (agregado)",
+    "mes": "2026-03",
+    "n": 8
+  },
+  {
+    "comuna": "Fuera de la Región de Ñuble (agregado)",
+    "mes": "2026-02",
+    "n": 9
+  },
+  {
+    "comuna": "Fuera de la Región de Ñuble (agregado)",
+    "mes": "2026-08",
+    "n": 7
+  },
+  {
+    "comuna": "Fuera de la Región de Ñuble (agregado)",
+    "mes": "2026-06",
+    "n": 4
+  },
+  {
+    "comuna": "Fuera de la Región de Ñuble (agregado)",
+    "mes": "2026-07",
+    "n": 6
   },
   {
     "comuna": "Pinto",
@@ -701,18 +411,18 @@
   },
   {
     "comuna": "Pinto",
-    "mes": "2026-08",
-    "n": 2
+    "mes": "2026-05",
+    "n": 10
+  },
+  {
+    "comuna": "Pinto",
+    "mes": "2026-02",
+    "n": 14
   },
   {
     "comuna": "Pinto",
     "mes": "2026-06",
     "n": 9
-  },
-  {
-    "comuna": "Pinto",
-    "mes": "2026-09",
-    "n": 1
   },
   {
     "comuna": "Pinto",
@@ -720,74 +430,14 @@
     "n": 5
   },
   {
-    "comuna": "El Carmen",
-    "mes": "2026-03",
-    "n": 40
-  },
-  {
-    "comuna": "El Carmen",
-    "mes": "2026-06",
-    "n": 4
-  },
-  {
-    "comuna": "El Carmen",
-    "mes": "2026-04",
-    "n": 1
-  },
-  {
-    "comuna": "El Carmen",
-    "mes": "2026-02",
-    "n": 15
-  },
-  {
-    "comuna": "El Carmen",
-    "mes": "2026-07",
-    "n": 1
-  },
-  {
-    "comuna": "El Carmen",
-    "mes": "2026-05",
-    "n": 2
-  },
-  {
-    "comuna": "San Fabián",
-    "mes": "2026-01",
-    "n": 19
-  },
-  {
-    "comuna": "San Fabián",
-    "mes": "2026-03",
-    "n": 6
-  },
-  {
-    "comuna": "San Fabián",
-    "mes": "2026-04",
-    "n": 3
-  },
-  {
-    "comuna": "San Fabián",
-    "mes": "2026-05",
-    "n": 3
-  },
-  {
-    "comuna": "San Fabián",
-    "mes": "2026-07",
-    "n": 2
-  },
-  {
-    "comuna": "San Fabián",
-    "mes": "2026-02",
-    "n": 9
-  },
-  {
-    "comuna": "San Fabián",
+    "comuna": "Pinto",
     "mes": "2026-08",
     "n": 2
   },
   {
-    "comuna": "San Fabián",
-    "mes": "2026-06",
-    "n": 2
+    "comuna": "Pinto",
+    "mes": "2026-09",
+    "n": 1
   },
   {
     "comuna": "Trehuaco",
@@ -806,11 +456,6 @@
   },
   {
     "comuna": "Trehuaco",
-    "mes": "2026-06",
-    "n": 1
-  },
-  {
-    "comuna": "Trehuaco",
     "mes": "2026-05",
     "n": 1
   },
@@ -830,39 +475,394 @@
     "n": 4
   },
   {
-    "comuna": "Fuera de la Región de Ñuble (agregado)",
-    "mes": "2026-03",
-    "n": 8
+    "comuna": "Trehuaco",
+    "mes": "2026-06",
+    "n": 1
   },
   {
-    "comuna": "Fuera de la Región de Ñuble (agregado)",
+    "comuna": "Ñiquén",
+    "mes": "2026-04",
+    "n": 25
+  },
+  {
+    "comuna": "Ñiquén",
+    "mes": "2026-03",
+    "n": 21
+  },
+  {
+    "comuna": "Ñiquén",
     "mes": "2026-02",
+    "n": 22
+  },
+  {
+    "comuna": "Ñiquén",
+    "mes": "2026-07",
+    "n": 15
+  },
+  {
+    "comuna": "Ñiquén",
+    "mes": "2026-05",
+    "n": 7
+  },
+  {
+    "comuna": "Ñiquén",
+    "mes": "2026-09",
+    "n": 3
+  },
+  {
+    "comuna": "Ñiquén",
+    "mes": "2026-08",
+    "n": 5
+  },
+  {
+    "comuna": "Ñiquén",
+    "mes": "2026-01",
     "n": 9
   },
   {
-    "comuna": "Fuera de la Región de Ñuble (agregado)",
-    "mes": "2026-07",
+    "comuna": "Ñiquén",
+    "mes": "2026-06",
+    "n": 1
+  },
+  {
+    "comuna": "Pemuco",
+    "mes": "2026-03",
+    "n": 24
+  },
+  {
+    "comuna": "Pemuco",
+    "mes": "2026-04",
+    "n": 12
+  },
+  {
+    "comuna": "Pemuco",
+    "mes": "2026-05",
     "n": 6
   },
   {
-    "comuna": "Fuera de la Región de Ñuble (agregado)",
+    "comuna": "Pemuco",
+    "mes": "2026-02",
+    "n": 19
+  },
+  {
+    "comuna": "Pemuco",
+    "mes": "2026-06",
+    "n": 6
+  },
+  {
+    "comuna": "Pemuco",
+    "mes": "2026-09",
+    "n": 6
+  },
+  {
+    "comuna": "Pemuco",
+    "mes": "2026-08",
+    "n": 5
+  },
+  {
+    "comuna": "Pemuco",
+    "mes": "2026-07",
+    "n": 3
+  },
+  {
+    "comuna": "Ninhue",
+    "mes": "2026-05",
+    "n": 37
+  },
+  {
+    "comuna": "Ninhue",
+    "mes": "2026-06",
+    "n": 6
+  },
+  {
+    "comuna": "Ninhue",
+    "mes": "2026-03",
+    "n": 21
+  },
+  {
+    "comuna": "Ninhue",
+    "mes": "2026-04",
+    "n": 18
+  },
+  {
+    "comuna": "Ninhue",
+    "mes": "2026-07",
+    "n": 2
+  },
+  {
+    "comuna": "El Carmen",
+    "mes": "2026-02",
+    "n": 15
+  },
+  {
+    "comuna": "El Carmen",
+    "mes": "2026-05",
+    "n": 2
+  },
+  {
+    "comuna": "El Carmen",
+    "mes": "2026-03",
+    "n": 40
+  },
+  {
+    "comuna": "El Carmen",
+    "mes": "2026-07",
+    "n": 1
+  },
+  {
+    "comuna": "El Carmen",
     "mes": "2026-06",
     "n": 4
   },
   {
-    "comuna": "Fuera de la Región de Ñuble (agregado)",
-    "mes": "2026-08",
-    "n": 7
+    "comuna": "El Carmen",
+    "mes": "2026-04",
+    "n": 1
   },
   {
-    "comuna": "Fuera de la Región de Ñuble (agregado)",
-    "mes": "2026-05",
+    "comuna": "San Fabián",
+    "mes": "2026-01",
+    "n": 19
+  },
+  {
+    "comuna": "San Fabián",
+    "mes": "2026-03",
     "n": 6
   },
   {
-    "comuna": "Fuera de la Región de Ñuble (agregado)",
+    "comuna": "San Fabián",
     "mes": "2026-04",
+    "n": 3
+  },
+  {
+    "comuna": "San Fabián",
+    "mes": "2026-07",
+    "n": 2
+  },
+  {
+    "comuna": "San Fabián",
+    "mes": "2026-06",
+    "n": 2
+  },
+  {
+    "comuna": "San Fabián",
+    "mes": "2026-02",
+    "n": 9
+  },
+  {
+    "comuna": "San Fabián",
+    "mes": "2026-05",
+    "n": 3
+  },
+  {
+    "comuna": "San Fabián",
+    "mes": "2026-08",
+    "n": 2
+  },
+  {
+    "comuna": "San Ignacio",
+    "mes": "2026-06",
+    "n": 21
+  },
+  {
+    "comuna": "San Ignacio",
+    "mes": "2026-02",
+    "n": 18
+  },
+  {
+    "comuna": "San Ignacio",
+    "mes": "2026-05",
+    "n": 11
+  },
+  {
+    "comuna": "San Ignacio",
+    "mes": "2026-07",
+    "n": 17
+  },
+  {
+    "comuna": "San Ignacio",
+    "mes": "2026-04",
+    "n": 29
+  },
+  {
+    "comuna": "San Ignacio",
+    "mes": "2026-08",
+    "n": 4
+  },
+  {
+    "comuna": "San Ignacio",
+    "mes": "2026-03",
+    "n": 37
+  },
+  {
+    "comuna": "San Ignacio",
+    "mes": "2026-01",
+    "n": 2
+  },
+  {
+    "comuna": "San Ignacio",
+    "mes": "2026-09",
+    "n": 1
+  },
+  {
+    "comuna": "Yungay",
+    "mes": "2026-04",
+    "n": 24
+  },
+  {
+    "comuna": "Yungay",
+    "mes": "2026-03",
+    "n": 41
+  },
+  {
+    "comuna": "Yungay",
+    "mes": "2026-06",
+    "n": 19
+  },
+  {
+    "comuna": "Yungay",
+    "mes": "2026-05",
+    "n": 16
+  },
+  {
+    "comuna": "Yungay",
+    "mes": "2026-02",
+    "n": 30
+  },
+  {
+    "comuna": "Yungay",
+    "mes": "2026-07",
+    "n": 5
+  },
+  {
+    "comuna": "Yungay",
+    "mes": "2026-08",
+    "n": 1
+  },
+  {
+    "comuna": "Yungay",
+    "mes": "2026-01",
+    "n": 1
+  },
+  {
+    "comuna": "Portezuelo",
+    "mes": "2026-03",
+    "n": 7
+  },
+  {
+    "comuna": "Portezuelo",
+    "mes": "2026-05",
     "n": 10
+  },
+  {
+    "comuna": "Portezuelo",
+    "mes": "2026-06",
+    "n": 10
+  },
+  {
+    "comuna": "Portezuelo",
+    "mes": "2026-04",
+    "n": 27
+  },
+  {
+    "comuna": "Portezuelo",
+    "mes": "2026-02",
+    "n": 3
+  },
+  {
+    "comuna": "Portezuelo",
+    "mes": "2026-07",
+    "n": 2
+  },
+  {
+    "comuna": "Portezuelo",
+    "mes": "2026-01",
+    "n": 2
+  },
+  {
+    "comuna": "Portezuelo",
+    "mes": "2026-08",
+    "n": 1
+  },
+  {
+    "comuna": "Ránquil",
+    "mes": "2026-04",
+    "n": 14
+  },
+  {
+    "comuna": "Ránquil",
+    "mes": "2026-08",
+    "n": 1
+  },
+  {
+    "comuna": "Ránquil",
+    "mes": "2026-02",
+    "n": 12
+  },
+  {
+    "comuna": "Ránquil",
+    "mes": "2026-05",
+    "n": 11
+  },
+  {
+    "comuna": "Ránquil",
+    "mes": "2026-03",
+    "n": 16
+  },
+  {
+    "comuna": "Ránquil",
+    "mes": "2026-09",
+    "n": 1
+  },
+  {
+    "comuna": "Ránquil",
+    "mes": "2026-07",
+    "n": 3
+  },
+  {
+    "comuna": "San Nicolás",
+    "mes": "2026-02",
+    "n": 46
+  },
+  {
+    "comuna": "San Nicolás",
+    "mes": "2026-07",
+    "n": 15
+  },
+  {
+    "comuna": "San Nicolás",
+    "mes": "2026-05",
+    "n": 16
+  },
+  {
+    "comuna": "San Nicolás",
+    "mes": "2026-08",
+    "n": 8
+  },
+  {
+    "comuna": "San Nicolás",
+    "mes": "2026-03",
+    "n": 23
+  },
+  {
+    "comuna": "San Nicolás",
+    "mes": "2026-04",
+    "n": 2
+  },
+  {
+    "comuna": "San Nicolás",
+    "mes": "2026-06",
+    "n": 18
+  },
+  {
+    "comuna": "San Nicolás",
+    "mes": "2026-09",
+    "n": 1
+  },
+  {
+    "comuna": "San Nicolás",
+    "mes": "2026-01",
+    "n": 1
   },
   {
     "comuna": "Sin dato / no informado",
@@ -871,13 +871,13 @@
   },
   {
     "comuna": "Sin dato / no informado",
-    "mes": "2026-04",
-    "n": 12
+    "mes": "2026-08",
+    "n": 1
   },
   {
     "comuna": "Sin dato / no informado",
-    "mes": "2026-07",
-    "n": 4
+    "mes": "2026-04",
+    "n": 12
   },
   {
     "comuna": "Sin dato / no informado",
@@ -886,8 +886,13 @@
   },
   {
     "comuna": "Sin dato / no informado",
-    "mes": "2026-08",
-    "n": 1
+    "mes": "2026-06",
+    "n": 2
+  },
+  {
+    "comuna": "Sin dato / no informado",
+    "mes": "2026-07",
+    "n": 4
   },
   {
     "comuna": "Sin dato / no informado",
@@ -898,10 +903,5 @@
     "comuna": "Sin dato / no informado",
     "mes": "2026-09",
     "n": 3
-  },
-  {
-    "comuna": "Sin dato / no informado",
-    "mes": "2026-06",
-    "n": 2
   }
 ]
