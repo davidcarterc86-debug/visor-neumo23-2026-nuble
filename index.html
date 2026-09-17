@@ -278,6 +278,24 @@
   No constituye una cobertura poblacional oficial &middot; Ningún archivo fuente original fue modificado.
 </footer>
 
+<script>
+  // Formateo de presentación para la pestaña "Evolución temporal". Solo cambia
+  // cómo se MUESTRAN los meses; los valores internos "01".."12" y "AAAA-MM"
+  // (usados para ordenar y para el automatizador) no se modifican en ningún
+  // otro lugar.
+  const NOMBRES_MES_ES = {
+    "01": "Enero", "02": "Febrero", "03": "Marzo", "04": "Abril",
+    "05": "Mayo", "06": "Junio", "07": "Julio", "08": "Agosto",
+    "09": "Septiembre", "10": "Octubre", "11": "Noviembre", "12": "Diciembre",
+  };
+  function formatearMesCorto(mesAAAAMM) {
+    const mm = mesAAAAMM.slice(5);
+    return NOMBRES_MES_ES[mm] || mm;
+  }
+  function formatearMesLargo(mesAAAAMM) {
+    return `${formatearMesCorto(mesAAAAMM)} ${mesAAAAMM.slice(0, 4)}`;
+  }
+</script>
 <script src="js/app.js"></script>
 </body>
 </html>

@@ -165,7 +165,7 @@ function pintarEvolucion(meses) {
     t.setAttribute("x", x); t.setAttribute("y", h - pad + 16);
     t.setAttribute("font-size", "10"); t.setAttribute("text-anchor", "middle");
     t.setAttribute("fill", "#666");
-    t.textContent = m.mes.slice(5);
+    t.textContent = formatearMesCorto(m.mes);
     svg.appendChild(t);
   });
   cont.appendChild(svg);
@@ -175,7 +175,7 @@ function pintarEvolucion(meses) {
   tbody.innerHTML = "";
   meses.forEach((m) => {
     const tr = document.createElement("tr");
-    tr.innerHTML = `<td>${m.mes}</td><td class="num">${fmt(m.nuevos_encontrados)}</td><td class="num">${m.acumulado === null ? '<span class="badge-supresion">no publicado (protección de datos)</span>' : fmt(m.acumulado)}</td>`;
+    tr.innerHTML = `<td>${formatearMesLargo(m.mes)}</td><td class="num">${fmt(m.nuevos_encontrados)}</td><td class="num">${m.acumulado === null ? '<span class="badge-supresion">no publicado (protección de datos)</span>' : fmt(m.acumulado)}</td>`;
     tbody.appendChild(tr);
   });
 }
