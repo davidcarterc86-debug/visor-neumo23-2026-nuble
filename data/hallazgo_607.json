@@ -1,5 +1,5 @@
 {
-  "total": 608,
+  "total": 610,
   "advertencia": "Este grupo NO forma parte de la nómina oficial de 6.480 personas. Fue identificado mediante cruce con Programaticas_2026.csv (RNI 2026). Su eventual incorporación a la nómina debe ser evaluada por la instancia responsable de la estrategia. Estas cifras NUNCA deben sumarse al universo de 6.480 en los indicadores principales.",
   "por_comuna_residencia": [
     {
@@ -12,7 +12,7 @@
     },
     {
       "comuna_residencia": "El Carmen",
-      "n": 49
+      "n": 50
     },
     {
       "comuna_residencia": "Yungay",
@@ -48,7 +48,7 @@
     },
     {
       "comuna_residencia": "Ñiquén",
-      "n": 13
+      "n": 14
     },
     {
       "comuna_residencia": "Ránquil",
@@ -149,15 +149,15 @@
       "n": 16
     },
     {
-      "codigo_deis": "17-303",
-      "establecimiento": "Centro de Salud Familiar Ultraestación Dr. Raúl San Martín González",
-      "comuna_ocurrencia": "Chillán",
-      "n": 13
-    },
-    {
       "codigo_deis": "17-439",
       "establecimiento": "Posta de Salud Rural Ranguelmo",
       "comuna_ocurrencia": "Coelemu",
+      "n": 13
+    },
+    {
+      "codigo_deis": "17-303",
+      "establecimiento": "Centro de Salud Familiar Ultraestación Dr. Raúl San Martín González",
+      "comuna_ocurrencia": "Chillán",
       "n": 13
     },
     {
@@ -173,15 +173,15 @@
       "n": 13
     },
     {
-      "codigo_deis": "17-318",
-      "establecimiento": "Centro de Salud Familiar Michelle Chandía Alarcón",
-      "comuna_ocurrencia": "Coihueco",
-      "n": 12
-    },
-    {
       "codigo_deis": "17-317",
       "establecimiento": "Centro de Salud Familiar Pinto",
       "comuna_ocurrencia": "Pinto",
+      "n": 12
+    },
+    {
+      "codigo_deis": "17-318",
+      "establecimiento": "Centro de Salud Familiar Michelle Chandía Alarcón",
+      "comuna_ocurrencia": "Coihueco",
       "n": 12
     },
     {
@@ -233,16 +233,16 @@
       "n": 7
     },
     {
+      "codigo_deis": "17-477",
+      "establecimiento": "Posta de Salud Rural Chamizal",
+      "comuna_ocurrencia": "El Carmen",
+      "n": 6
+    },
+    {
       "codigo_deis": "17-311",
       "establecimiento": "Centro de Salud Familiar Dr. José Duran Trujillo",
       "comuna_ocurrencia": "San Carlos",
       "n": 6
-    },
-    {
-      "codigo_deis": "17-477",
-      "establecimiento": "Posta de Salud Rural Chamizal",
-      "comuna_ocurrencia": "El Carmen",
-      "n": 5
     },
     {
       "codigo_deis": "17-305",
@@ -281,6 +281,12 @@
       "n": 3
     },
     {
+      "codigo_deis": "17-409",
+      "establecimiento": "Posta de Salud Rural Recinto",
+      "comuna_ocurrencia": "Pinto",
+      "n": 3
+    },
+    {
       "codigo_deis": "17-314",
       "establecimiento": "Centro de Salud Familiar Dr. David Benavente de Ninhue",
       "comuna_ocurrencia": "Ninhue",
@@ -290,12 +296,6 @@
       "codigo_deis": "17-307",
       "establecimiento": "Centro de Salud Familiar Cobquecura",
       "comuna_ocurrencia": "Cobquecura",
-      "n": 3
-    },
-    {
-      "codigo_deis": "17-409",
-      "establecimiento": "Posta de Salud Rural Recinto",
-      "comuna_ocurrencia": "Pinto",
       "n": 3
     },
     {
@@ -332,6 +332,12 @@
       "codigo_deis": "17-308",
       "establecimiento": "CESFAM DR. ALFONSO PARRA CARRIEL",
       "comuna_ocurrencia": "San Ignacio",
+      "n": 2
+    },
+    {
+      "codigo_deis": "17-418",
+      "establecimiento": "Centro Comunitario de Salud Familiar Chacay",
+      "comuna_ocurrencia": "Ñiquén",
       "n": 2
     },
     {
@@ -392,12 +398,6 @@
       "codigo_deis": "201735",
       "establecimiento": "Vacunatorio Inmuniza",
       "comuna_ocurrencia": "Chillán",
-      "n": 1
-    },
-    {
-      "codigo_deis": "17-418",
-      "establecimiento": "Centro Comunitario de Salud Familiar Chacay",
-      "comuna_ocurrencia": "Ñiquén",
       "n": 1
     },
     {
@@ -484,7 +484,7 @@
     },
     {
       "mes": "2026-09",
-      "n": 7
+      "n": 9
     }
   ]
 }

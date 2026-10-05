@@ -41,7 +41,12 @@
   },
   {
     "mes": "2026-09",
-    "nuevos_encontrados": 76,
-    "acumulado": 4076
+    "nuevos_encontrados": 134,
+    "acumulado": 4134
+  },
+  {
+    "mes": "2026-10",
+    "nuevos_encontrados": 16,
+    "acumulado": 4150
   }
 ]

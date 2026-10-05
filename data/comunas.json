@@ -2,52 +2,52 @@
   {
     "comuna": "Chillán",
     "total_nomina": 2116,
-    "encontrado_valido": 1250,
-    "sin_registro": 810,
-    "requiere_revision": 25,
+    "encontrado_valido": 1276,
+    "sin_registro": 781,
+    "requiere_revision": 28,
     "no_cumple_criterio": 20,
     "sin_run": 11,
-    "pct_encontrado_valido": 59.07
+    "pct_encontrado_valido": 60.3
   },
   {
     "comuna": "San Carlos",
     "total_nomina": 809,
-    "encontrado_valido": 564,
-    "sin_registro": 171,
-    "requiere_revision": 59,
+    "encontrado_valido": 583,
+    "sin_registro": 139,
+    "requiere_revision": 72,
     "no_cumple_criterio": 14,
     "sin_run": 1,
-    "pct_encontrado_valido": 69.72
+    "pct_encontrado_valido": 72.06
   },
   {
     "comuna": "Chillán Viejo",
     "total_nomina": 367,
-    "encontrado_valido": 252,
-    "sin_registro": 88,
-    "requiere_revision": 17,
+    "encontrado_valido": 254,
+    "sin_registro": 83,
+    "requiere_revision": 20,
     "no_cumple_criterio": 4,
     "sin_run": 6,
-    "pct_encontrado_valido": 68.66
+    "pct_encontrado_valido": 69.21
   },
   {
     "comuna": "Coihueco",
     "total_nomina": 344,
-    "encontrado_valido": 225,
-    "sin_registro": 108,
+    "encontrado_valido": 241,
+    "sin_registro": 92,
     "requiere_revision": 7,
     "no_cumple_criterio": 4,
     "sin_run": 0,
-    "pct_encontrado_valido": 65.41
+    "pct_encontrado_valido": 70.06
   },
   {
     "comuna": "Bulnes",
     "total_nomina": 332,
-    "encontrado_valido": 204,
-    "sin_registro": 113,
-    "requiere_revision": 4,
+    "encontrado_valido": 207,
+    "sin_registro": 111,
+    "requiere_revision": 3,
     "no_cumple_criterio": 10,
     "sin_run": 1,
-    "pct_encontrado_valido": 61.45
+    "pct_encontrado_valido": 62.35
   },
   {
     "comuna": "Quillón",
@@ -73,9 +73,9 @@
     "comuna": "Yungay",
     "total_nomina": 233,
     "encontrado_valido": 137,
-    "sin_registro": 88,
+    "sin_registro": 87,
     "requiere_revision": 1,
-    "no_cumple_criterio": 7,
+    "no_cumple_criterio": 8,
     "sin_run": 0,
     "pct_encontrado_valido": 58.8
   },
@@ -83,8 +83,8 @@
     "comuna": "San Nicolás",
     "total_nomina": 188,
     "encontrado_valido": 130,
-    "sin_registro": 27,
-    "requiere_revision": 23,
+    "sin_registro": 26,
+    "requiere_revision": 24,
     "no_cumple_criterio": 8,
     "sin_run": 0,
     "pct_encontrado_valido": 69.15
@@ -102,22 +102,22 @@
   {
     "comuna": "Ñiquén",
     "total_nomina": 169,
-    "encontrado_valido": 108,
-    "sin_registro": 51,
+    "encontrado_valido": 109,
+    "sin_registro": 50,
     "requiere_revision": 2,
     "no_cumple_criterio": 7,
     "sin_run": 1,
-    "pct_encontrado_valido": 63.91
+    "pct_encontrado_valido": 64.5
   },
   {
     "comuna": "Pinto",
     "total_nomina": 161,
-    "encontrado_valido": 106,
-    "sin_registro": 50,
+    "encontrado_valido": 107,
+    "sin_registro": 49,
     "requiere_revision": 2,
     "no_cumple_criterio": 3,
     "sin_run": 0,
-    "pct_encontrado_valido": 65.84
+    "pct_encontrado_valido": 66.46
   },
   {
     "comuna": "Coelemu",
@@ -142,32 +142,32 @@
   {
     "comuna": "Pemuco",
     "total_nomina": 119,
-    "encontrado_valido": 81,
-    "sin_registro": 33,
+    "encontrado_valido": 84,
+    "sin_registro": 30,
     "requiere_revision": 3,
     "no_cumple_criterio": 2,
     "sin_run": 0,
-    "pct_encontrado_valido": 68.07
+    "pct_encontrado_valido": 70.59
   },
   {
     "comuna": "Fuera de la Región de Ñuble (agregado)",
     "total_nomina": 110,
-    "encontrado_valido": 51,
-    "sin_registro": 50,
+    "encontrado_valido": 52,
+    "sin_registro": 49,
     "requiere_revision": 1,
     "no_cumple_criterio": 8,
     "sin_run": 0,
-    "pct_encontrado_valido": 46.36
+    "pct_encontrado_valido": 47.27
   },
   {
     "comuna": "Ránquil",
     "total_nomina": 106,
-    "encontrado_valido": 58,
+    "encontrado_valido": 59,
     "sin_registro": 32,
-    "requiere_revision": 8,
+    "requiere_revision": 7,
     "no_cumple_criterio": 7,
     "sin_run": 1,
-    "pct_encontrado_valido": 54.72
+    "pct_encontrado_valido": 55.66
   },
   {
     "comuna": "Ninhue",
@@ -202,12 +202,12 @@
   {
     "comuna": "Portezuelo",
     "total_nomina": 73,
-    "encontrado_valido": 62,
+    "encontrado_valido": 63,
     "sin_registro": 8,
-    "requiere_revision": 3,
+    "requiere_revision": 2,
     "no_cumple_criterio": 0,
     "sin_run": 0,
-    "pct_encontrado_valido": 84.93
+    "pct_encontrado_valido": 86.3
   },
   {
     "comuna": "Trehuaco",
