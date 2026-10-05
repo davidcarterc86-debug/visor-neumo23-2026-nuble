@@ -96,15 +96,15 @@
     "total_encontrados": 93
   },
   {
-    "codigo_deis": "17-317",
-    "establecimiento": "Centro de Salud Familiar Pinto",
-    "comuna_ocurrencia": "Pinto",
-    "total_encontrados": 91
-  },
-  {
     "codigo_deis": "17-104",
     "establecimiento": "Hospital Comunitario de Salud Familiar Pedro Morales Campos (Yungay)",
     "comuna_ocurrencia": "Yungay",
+    "total_encontrados": 91
+  },
+  {
+    "codigo_deis": "17-317",
+    "establecimiento": "Centro de Salud Familiar Pinto",
+    "comuna_ocurrencia": "Pinto",
     "total_encontrados": 91
   },
   {
@@ -156,15 +156,15 @@
     "total_encontrados": 56
   },
   {
-    "codigo_deis": "17-309",
-    "establecimiento": "Centro de Salud Familiar San Fabián",
-    "comuna_ocurrencia": "San Fabián",
-    "total_encontrados": 48
-  },
-  {
     "codigo_deis": "17-326",
     "establecimiento": "Centro de Salud Familiar Santa Clara",
     "comuna_ocurrencia": "Bulnes",
+    "total_encontrados": 48
+  },
+  {
+    "codigo_deis": "17-309",
+    "establecimiento": "Centro de Salud Familiar San Fabián",
+    "comuna_ocurrencia": "San Fabián",
     "total_encontrados": 48
   },
   {
@@ -216,15 +216,15 @@
     "total_encontrados": 34
   },
   {
-    "codigo_deis": "17-706",
-    "establecimiento": "Centro Comunitario de Salud Familiar El Casino",
-    "comuna_ocurrencia": "Quillón",
-    "total_encontrados": 27
-  },
-  {
     "codigo_deis": "17-455",
     "establecimiento": "Consultorio General Rural de Pueblo Seco",
     "comuna_ocurrencia": "San Ignacio",
+    "total_encontrados": 27
+  },
+  {
+    "codigo_deis": "17-706",
+    "establecimiento": "Centro Comunitario de Salud Familiar El Casino",
+    "comuna_ocurrencia": "Quillón",
     "total_encontrados": 27
   },
   {
@@ -240,15 +240,15 @@
     "total_encontrados": 23
   },
   {
-    "codigo_deis": "17-471",
-    "establecimiento": "Posta de Salud Rural Puente Ñuble",
-    "comuna_ocurrencia": "San Nicolás",
-    "total_encontrados": 19
-  },
-  {
     "codigo_deis": "17-451",
     "establecimiento": "Posta de Salud Rural Buchupureo",
     "comuna_ocurrencia": "Cobquecura",
+    "total_encontrados": 19
+  },
+  {
+    "codigo_deis": "17-471",
+    "establecimiento": "Posta de Salud Rural Puente Ñuble",
+    "comuna_ocurrencia": "San Nicolás",
     "total_encontrados": 19
   },
   {
@@ -282,6 +282,12 @@
     "total_encontrados": 10
   },
   {
+    "codigo_deis": "17-464",
+    "establecimiento": "Posta de Salud Rural Zemita",
+    "comuna_ocurrencia": "Ñiquén",
+    "total_encontrados": 9
+  },
+  {
     "codigo_deis": "17-407",
     "establecimiento": "Posta de Salud Rural Tanilvoro",
     "comuna_ocurrencia": "Coihueco",
@@ -290,12 +296,6 @@
   {
     "codigo_deis": "17-422",
     "establecimiento": "Posta de Salud Rural La Gloria",
-    "comuna_ocurrencia": "Ñiquén",
-    "total_encontrados": 9
-  },
-  {
-    "codigo_deis": "17-464",
-    "establecimiento": "Posta de Salud Rural Zemita",
     "comuna_ocurrencia": "Ñiquén",
     "total_encontrados": 9
   },
@@ -336,27 +336,9 @@
     "total_encontrados": 5
   },
   {
-    "codigo_deis": "17-439",
-    "establecimiento": "Posta de Salud Rural Ranguelmo",
-    "comuna_ocurrencia": "Coelemu",
-    "total_encontrados": 4
-  },
-  {
-    "codigo_deis": "17-729",
-    "establecimiento": "Centro Comunitario de Salud Familiar Valle Hondo",
-    "comuna_ocurrencia": "San Carlos",
-    "total_encontrados": 4
-  },
-  {
     "codigo_deis": "17-702",
     "establecimiento": "Centro Comunitario de Salud Familiar El Roble",
     "comuna_ocurrencia": "Chillán",
-    "total_encontrados": 4
-  },
-  {
-    "codigo_deis": "17-436",
-    "establecimiento": "Posta de Salud Rural Pedregal de Zapallar",
-    "comuna_ocurrencia": "El Carmen",
     "total_encontrados": 4
   },
   {
@@ -366,15 +348,45 @@
     "total_encontrados": 4
   },
   {
+    "codigo_deis": "17-729",
+    "establecimiento": "Centro Comunitario de Salud Familiar Valle Hondo",
+    "comuna_ocurrencia": "San Carlos",
+    "total_encontrados": 4
+  },
+  {
     "codigo_deis": "17-414",
     "establecimiento": "Posta de Salud Rural Nebuco",
     "comuna_ocurrencia": "Chillán Viejo",
     "total_encontrados": 4
   },
   {
+    "codigo_deis": "17-436",
+    "establecimiento": "Posta de Salud Rural Pedregal de Zapallar",
+    "comuna_ocurrencia": "El Carmen",
+    "total_encontrados": 4
+  },
+  {
+    "codigo_deis": "17-439",
+    "establecimiento": "Posta de Salud Rural Ranguelmo",
+    "comuna_ocurrencia": "Coelemu",
+    "total_encontrados": 4
+  },
+  {
+    "codigo_deis": "17-406",
+    "establecimiento": "Posta de Salud Rural Minas del Prado",
+    "comuna_ocurrencia": "Coihueco",
+    "total_encontrados": 3
+  },
+  {
     "codigo_deis": "17-416",
     "establecimiento": "Posta de Salud Rural Rivera de Ñuble",
     "comuna_ocurrencia": "San Carlos",
+    "total_encontrados": 3
+  },
+  {
+    "codigo_deis": "17-474",
+    "establecimiento": "Posta de Salud Rural Agua Santa",
+    "comuna_ocurrencia": "El Carmen",
     "total_encontrados": 3
   },
   {
@@ -390,27 +402,9 @@
     "total_encontrados": 3
   },
   {
-    "codigo_deis": "17-474",
-    "establecimiento": "Posta de Salud Rural Agua Santa",
-    "comuna_ocurrencia": "El Carmen",
-    "total_encontrados": 3
-  },
-  {
-    "codigo_deis": "17-406",
-    "establecimiento": "Posta de Salud Rural Minas del Prado",
-    "comuna_ocurrencia": "Coihueco",
-    "total_encontrados": 3
-  },
-  {
     "codigo_deis": "17-431",
     "establecimiento": "Posta de Salud Rural Gral. Cruz",
     "comuna_ocurrencia": "Pemuco",
-    "total_encontrados": 2
-  },
-  {
-    "codigo_deis": "17-419",
-    "establecimiento": "Posta de Salud Rural Ñiquén",
-    "comuna_ocurrencia": "Ñiquén",
     "total_encontrados": 2
   },
   {
@@ -420,9 +414,15 @@
     "total_encontrados": 2
   },
   {
-    "codigo_deis": "17-430",
-    "establecimiento": "Posta de Salud Rural Cartago",
-    "comuna_ocurrencia": "Pemuco",
+    "codigo_deis": "17-419",
+    "establecimiento": "Posta de Salud Rural Ñiquén",
+    "comuna_ocurrencia": "Ñiquén",
+    "total_encontrados": 2
+  },
+  {
+    "codigo_deis": "17-475",
+    "establecimiento": "Posta de Salud Rural Castañal",
+    "comuna_ocurrencia": "El Carmen",
     "total_encontrados": 1
   },
   {
@@ -432,15 +432,15 @@
     "total_encontrados": 1
   },
   {
-    "codigo_deis": "17-475",
-    "establecimiento": "Posta de Salud Rural Castañal",
-    "comuna_ocurrencia": "El Carmen",
-    "total_encontrados": 1
-  },
-  {
     "codigo_deis": "17-462",
     "establecimiento": "Posta de Salud Rural Arizona",
     "comuna_ocurrencia": "San Carlos",
+    "total_encontrados": 1
+  },
+  {
+    "codigo_deis": "17-430",
+    "establecimiento": "Posta de Salud Rural Cartago",
+    "comuna_ocurrencia": "Pemuco",
     "total_encontrados": 1
   }
 ]
