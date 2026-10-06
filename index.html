@@ -11,6 +11,7 @@
 <header class="encabezado">
   <h1>Seguimiento Neumo23 2026 &mdash; Ñuble</h1>
   <p>Nómina original de personas nacidas en 1961 &middot; Uso interno / institucional &middot; Datos agregados, sin identificación de personas</p>
+  <p id="ultima-actualizacion" style="font-size:0.85rem; opacity:0.9; margin-top:4px;">Última actualización: no disponible</p>
 </header>
 
 <nav class="tabs">
@@ -295,6 +296,21 @@
   function formatearMesLargo(mesAAAAMM) {
     return `${formatearMesCorto(mesAAAAMM)} ${mesAAAAMM.slice(0, 4)}`;
   }
+  // Indicacion de ultima actualizacion, leida solo desde data/actualizacion.json.
+  (async function mostrarUltimaActualizacion() {
+    const el = document.getElementById("ultima-actualizacion");
+    try {
+      const resp = await fetch("data/actualizacion.json");
+      if (!resp.ok) return;
+      const d = await resp.json();
+      const f = /^(\d{4})-(\d{2})-(\d{2})$/.exec(d.fecha || "");
+      const h = /^(\d{2}):(\d{2})/.exec(d.hora || "");
+      if (!f || !h) return;
+      el.textContent = `Última actualización: ${f[3]}-${f[2]}-${f[1]} ${h[1]}:${h[2]}`;
+    } catch (e) {
+      // sin datos o sin acceso: se mantiene "no disponible"
+    }
+  })();
 </script>
 <script src="js/app.js"></script>
 </body>
