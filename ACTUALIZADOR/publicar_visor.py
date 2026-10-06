@@ -92,6 +92,7 @@ ALLOWLIST_EXACTAS = {
     "data/resumen.json", "data/comunas.json", "data/evolucion_mensual.json",
     "data/comuna_mes.json", "data/establecimientos.json", "data/hallazgo_607.json",
     "data/actualizacion.json", "HISTORIAL/historial.csv", "HISTORIAL/publicaciones.json",
+    "index.html",
 }
 ALLOWLIST_PATRON = re.compile(r"^HISTORIAL/actualizacion_\d{8}_\d{6}\.json$")
 
