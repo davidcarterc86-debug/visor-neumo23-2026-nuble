@@ -1,10 +1,10 @@
 {
-  "total": 610,
+  "total": 612,
   "advertencia": "Este grupo NO forma parte de la nómina oficial de 6.480 personas. Fue identificado mediante cruce con Programaticas_2026.csv (RNI 2026). Su eventual incorporación a la nómina debe ser evaluada por la instancia responsable de la estrategia. Estas cifras NUNCA deben sumarse al universo de 6.480 en los indicadores principales.",
   "por_comuna_residencia": [
     {
       "comuna_residencia": "Chillán",
-      "n": 259
+      "n": 260
     },
     {
       "comuna_residencia": "Coelemu",
@@ -60,7 +60,7 @@
     },
     {
       "comuna_residencia": "Portezuelo",
-      "n": 5
+      "n": 6
     },
     {
       "comuna_residencia": "San Ignacio",
@@ -173,15 +173,15 @@
       "n": 13
     },
     {
-      "codigo_deis": "17-317",
-      "establecimiento": "Centro de Salud Familiar Pinto",
-      "comuna_ocurrencia": "Pinto",
-      "n": 12
-    },
-    {
       "codigo_deis": "17-318",
       "establecimiento": "Centro de Salud Familiar Michelle Chandía Alarcón",
       "comuna_ocurrencia": "Coihueco",
+      "n": 12
+    },
+    {
+      "codigo_deis": "17-317",
+      "establecimiento": "Centro de Salud Familiar Pinto",
+      "comuna_ocurrencia": "Pinto",
       "n": 12
     },
     {
@@ -194,7 +194,7 @@
       "codigo_deis": "17-330",
       "establecimiento": "Centro de Salud Familiar Sol de Oriente",
       "comuna_ocurrencia": "Chillán",
-      "n": 9
+      "n": 10
     },
     {
       "codigo_deis": "17-313",
@@ -248,7 +248,7 @@
       "codigo_deis": "17-305",
       "establecimiento": "Centro de Salud Familiar Portezuelo",
       "comuna_ocurrencia": "Portezuelo",
-      "n": 5
+      "n": 6
     },
     {
       "codigo_deis": "17-309",
@@ -485,6 +485,10 @@
     {
       "mes": "2026-09",
       "n": 9
+    },
+    {
+      "mes": "2026-10",
+      "n": 2
     }
   ]
 }

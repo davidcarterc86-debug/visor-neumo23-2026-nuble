@@ -2,12 +2,12 @@
   {
     "comuna": "Chillán",
     "total_nomina": 2116,
-    "encontrado_valido": 1276,
-    "sin_registro": 781,
+    "encontrado_valido": 1278,
+    "sin_registro": 779,
     "requiere_revision": 28,
     "no_cumple_criterio": 20,
     "sin_run": 11,
-    "pct_encontrado_valido": 60.3
+    "pct_encontrado_valido": 60.4
   },
   {
     "comuna": "San Carlos",
@@ -22,12 +22,12 @@
   {
     "comuna": "Chillán Viejo",
     "total_nomina": 367,
-    "encontrado_valido": 254,
-    "sin_registro": 83,
+    "encontrado_valido": 255,
+    "sin_registro": 82,
     "requiere_revision": 20,
     "no_cumple_criterio": 4,
     "sin_run": 6,
-    "pct_encontrado_valido": 69.21
+    "pct_encontrado_valido": 69.48
   },
   {
     "comuna": "Coihueco",
@@ -42,12 +42,12 @@
   {
     "comuna": "Bulnes",
     "total_nomina": 332,
-    "encontrado_valido": 207,
-    "sin_registro": 111,
+    "encontrado_valido": 208,
+    "sin_registro": 110,
     "requiere_revision": 3,
     "no_cumple_criterio": 10,
     "sin_run": 1,
-    "pct_encontrado_valido": 62.35
+    "pct_encontrado_valido": 62.65
   },
   {
     "comuna": "Quillón",
@@ -102,12 +102,12 @@
   {
     "comuna": "Ñiquén",
     "total_nomina": 169,
-    "encontrado_valido": 109,
-    "sin_registro": 50,
+    "encontrado_valido": 110,
+    "sin_registro": 49,
     "requiere_revision": 2,
     "no_cumple_criterio": 7,
     "sin_run": 1,
-    "pct_encontrado_valido": 64.5
+    "pct_encontrado_valido": 65.09
   },
   {
     "comuna": "Pinto",
@@ -132,12 +132,12 @@
   {
     "comuna": "Sin dato / no informado",
     "total_nomina": 119,
-    "encontrado_valido": 42,
-    "sin_registro": 63,
+    "encontrado_valido": 43,
+    "sin_registro": 61,
     "requiere_revision": 4,
-    "no_cumple_criterio": 10,
+    "no_cumple_criterio": 11,
     "sin_run": 0,
-    "pct_encontrado_valido": 35.29
+    "pct_encontrado_valido": 36.13
   },
   {
     "comuna": "Pemuco",
@@ -163,9 +163,9 @@
     "comuna": "Ránquil",
     "total_nomina": 106,
     "encontrado_valido": 59,
-    "sin_registro": 32,
+    "sin_registro": 31,
     "requiere_revision": 7,
-    "no_cumple_criterio": 7,
+    "no_cumple_criterio": 8,
     "sin_run": 1,
     "pct_encontrado_valido": 55.66
   },
