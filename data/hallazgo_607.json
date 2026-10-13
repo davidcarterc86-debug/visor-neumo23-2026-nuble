@@ -1,10 +1,10 @@
 {
-  "total": 612,
+  "total": 614,
   "advertencia": "Este grupo NO forma parte de la nómina oficial de 6.480 personas. Fue identificado mediante cruce con Programaticas_2026.csv (RNI 2026). Su eventual incorporación a la nómina debe ser evaluada por la instancia responsable de la estrategia. Estas cifras NUNCA deben sumarse al universo de 6.480 en los indicadores principales.",
   "por_comuna_residencia": [
     {
       "comuna_residencia": "Chillán",
-      "n": 260
+      "n": 261
     },
     {
       "comuna_residencia": "Coelemu",
@@ -52,7 +52,7 @@
     },
     {
       "comuna_residencia": "Ránquil",
-      "n": 13
+      "n": 14
     },
     {
       "comuna_residencia": "Trehuaco",
@@ -98,7 +98,7 @@
       "codigo_deis": "17-301",
       "establecimiento": "Centro de Salud Familiar Violeta Parra",
       "comuna_ocurrencia": "Chillán",
-      "n": 50
+      "n": 51
     },
     {
       "codigo_deis": "17-108",
@@ -149,6 +149,12 @@
       "n": 16
     },
     {
+      "codigo_deis": "17-316",
+      "establecimiento": "Centro de Salud Familiar Ñipas",
+      "comuna_ocurrencia": "Ránquil",
+      "n": 14
+    },
+    {
       "codigo_deis": "17-439",
       "establecimiento": "Posta de Salud Rural Ranguelmo",
       "comuna_ocurrencia": "Coelemu",
@@ -164,12 +170,6 @@
       "codigo_deis": "17-304",
       "establecimiento": "Centro de Salud Familiar Isabel Riquelme",
       "comuna_ocurrencia": "Chillán",
-      "n": 13
-    },
-    {
-      "codigo_deis": "17-316",
-      "establecimiento": "Centro de Salud Familiar Ñipas",
-      "comuna_ocurrencia": "Ránquil",
       "n": 13
     },
     {
@@ -488,7 +488,7 @@
     },
     {
       "mes": "2026-10",
-      "n": 2
+      "n": 4
     }
   ]
 }
