@@ -40,6 +40,10 @@ header.encabezado p {
   font-size: 0.85rem;
   color: #cfe3ec;
 }
+/* Logo institucional (LOGO_SEREMI.jpg) a la izquierda del título, sin deformarlo */
+header.encabezado { display: grid; grid-template-columns: auto minmax(0, 1fr); column-gap: 16px; }
+header.encabezado > :not(.logo-institucional) { grid-column: 2; }
+header.encabezado .logo-institucional { grid-column: 1; grid-row: 1 / span 3; align-self: start; height: 56px; width: auto; border-radius: 4px; }
 
 nav.tabs {
   display: flex;
@@ -240,6 +244,8 @@ table.tabla-datos tr:hover { background: #f7fbfd; }
   .grid-dos-col { grid-template-columns: 1fr; }
   main { padding: 16px 12px 50px 12px; }
   nav.tabs button { padding: 12px 12px; font-size: 0.85rem; }
+  header.encabezado { column-gap: 12px; }
+  header.encabezado .logo-institucional { height: 44px; }
 }
 
 .metodologia dl { margin: 0; }
