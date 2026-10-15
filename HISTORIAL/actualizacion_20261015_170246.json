@@ -1,0 +1,17 @@
+{
+  "fecha": "2026-10-15",
+  "hora": "17:02:46",
+  "archivo_procesado": "Programaticas_2026.csv",
+  "estado": "OK",
+  "mensaje_error": null,
+  "universo": 6480,
+  "categorias": {
+    "encontrado_valido": 4209,
+    "sin_registro": 1896,
+    "requiere_revision": 218,
+    "no_cumple_criterio": 135,
+    "sin_run": 22
+  },
+  "n_607_fuera_nomina": 615,
+  "registros_neumo23_validos": 223168
+}
