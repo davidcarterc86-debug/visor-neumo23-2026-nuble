@@ -11,7 +11,7 @@
 <header class="encabezado">
   <img class="logo-institucional" src="img/LOGO_SEREMI.jpg" alt="SEREMI de Salud Ñuble — Ministerio de Salud, Gobierno de Chile" width="393" height="356">
   <h1>Seguimiento Neumo23 2026 &mdash; Ñuble</h1>
-  <p>Nómina original de personas nacidas en 1961 &middot; Uso interno / institucional &middot; Datos agregados, sin identificación de personas</p>
+  <p>Nómina original de personas nacidas en 1961 &middot; Divulgación autorizada de agregados &middot; Datos agregados, sin identificación de personas</p>
   <p id="ultima-actualizacion" style="font-size:0.85rem; opacity:0.9; margin-top:4px;">Última actualización: no disponible</p>
 </header>
 
@@ -98,7 +98,7 @@
 <section id="panel-evolucion" class="panel">
   <h2 class="titulo-seccion">Evolución temporal</h2>
   <p class="subtitulo-seccion">
-    Solo incluye a las <strong>4.072 personas con registro válido encontrado</strong> (tienen una fecha de vacunación real).
+    Solo incluye a las <strong>4.215 personas con registro válido encontrado</strong> (tienen una fecha de vacunación real).
     No existe información temporal para las personas "sin registro válido encontrado": no se les atribuye ninguna fecha.
   </p>
   <div class="caja">
@@ -122,7 +122,7 @@
 <section id="panel-establecimientos" class="panel">
   <h2 class="titulo-seccion">Establecimientos de vacunación</h2>
   <p class="subtitulo-seccion">
-    Establecimientos donde se registró la vacunación de las personas con registro válido encontrado (4.072).
+    Establecimientos donde se registró la vacunación de las personas con registro válido encontrado (4.215).
     Se muestran <strong>todos los establecimientos de forma individual</strong>, sin agrupar por tamaño
     (no existe concepto de establecimiento para quienes no tienen registro).
   </p>
@@ -219,25 +219,25 @@
   <div class="caja metodologia">
     <dl>
       <dt>Universo</dt>
-      <dd>6.480 personas de la hoja "COMPLETA" de la nómina original de nacidos en 1961 de Ñuble. No se modifica ni reemplaza esta nómina. No se le suman automáticamente los 607 casos del módulo "Hallazgo fuera de nómina".</dd>
+      <dd>6.480 personas de la hoja "COMPLETA" de la nómina original de nacidos en 1961 de Ñuble. No se modifica ni reemplaza esta nómina. No se le suman automáticamente los 616 casos del módulo "Hallazgo fuera de nómina".</dd>
 
       <dt>Filtros de exclusión previa (RNI / Programaticas_2026.csv)</dt>
       <dd>
-        Antes de cualquier conteo, cruce o clasificación, se identifican primero todos los registros de Programaticas_2026.csv cuyo NOMBRE_VACUNA sea "Neumocócica polisacárida 23V" o "Neumocócica polisacárida 23V (sector privado)". De ese conjunto se excluyen por completo (no participan en ningún indicador, ni como válidos ni como "requiere revisión") los registros que cumplan <strong>cualquiera</strong> de estas tres condiciones: REGISTRO_ELIMINADO distinto de "NO"; VACUNA_ADMINISTRADA distinto de "SI"; DOSIS = "EPRO". Solo después de aplicar este filtro se cruza la base resultante contra la nómina de 6.480.
+        Antes de cualquier conteo, cruce o clasificación, se identifican primero todos los registros de Programaticas_2026.csv cuyo NOMBRE_VACUNA sea "Neumocócica polisacárida 23V" o "Neumocócica polisacárida 23V (sector privado)". De ese conjunto no se consideran válidos los registros que cumplan <strong>cualquiera</strong> de estas tres condiciones: REGISTRO_ELIMINADO distinto de "NO"; VACUNA_ADMINISTRADA distinto de "SI"; DOSIS = "EPRO". La presencia de registros no válidos se conserva para identificar a las personas con uno o más registros de Neumo23, pero ninguno válido ("Requiere revisión"). El cruce contra la nómina de 6.480 distingue esta situación de la ausencia de registros.
       </dd>
 
       <dt>Definición de "registro válido" de Neumo23</dt>
-      <dd>Un registro de Neumo23 (NOMBRE_VACUNA en cualquiera de las dos variantes) se considera <strong>válido</strong> solo si cumple simultáneamente: REGISTRO_ELIMINADO = "NO", VACUNA_ADMINISTRADA = "SI" y DOSIS distinto de "EPRO". Un registro que falle cualquiera de estas tres condiciones queda excluido: no cuenta como vacunación válida, no participa en el cálculo de las categorías "Registro válido encontrado" ni "Registro válido, no cumple año/territorio", y por sí solo tampoco basta para ubicar a una persona en "Requiere revisión" salvo que sea el único registro de Neumo23 que tiene esa persona en toda la base (ver más abajo).</dd>
+      <dd>Un registro de Neumo23 (NOMBRE_VACUNA en cualquiera de las dos variantes) se considera <strong>válido</strong> solo si cumple simultáneamente: REGISTRO_ELIMINADO = "NO", VACUNA_ADMINISTRADA = "SI" y DOSIS distinto de "EPRO". Un registro que falle cualquiera de estas tres condiciones queda excluido: no cuenta como vacunación válida, no participa en el cálculo de las categorías "Registro válido encontrado" ni "Registro válido, no cumple año/territorio", y se utiliza para identificar "Requiere revisión" cuando la persona tiene uno o más registros de Neumo23, pero ninguno válido.</dd>
 
       <dt>Fuente de los datos</dt>
-      <dd>Nómina original (Excel, hoja COMPLETA) cruzada por RUN normalizado contra Programaticas_2026.csv (extracto de la base nacional de vacunación / RNI 2026), aplicando primero el filtro de exclusión previa descrito arriba.</dd>
+      <dd>Nómina original (Excel, hoja COMPLETA) cruzada por RUN normalizado contra Programaticas_2026.csv (extracto de la base nacional de vacunación / RNI 2026), distinguiendo registros válidos y no válidos según los criterios descritos arriba.</dd>
 
       <dt>Las 5 categorías</dt>
       <dd>
-        <strong>Registro válido encontrado (4.072):</strong> en la nómina, con al menos un registro válido de Neumo23 (según la definición de arriba) que además cumple simultáneamente año de nacimiento 1961, residencia en comuna de Ñuble y ocurrencia en comuna de Ñuble.<br>
-        <strong>Sin registro válido encontrado (2.065):</strong> en la nómina, sin ningún registro de Neumo23 en la base analizada, ni válido ni excluido por los filtros. No existe ninguna mención de Neumo23 para este RUN en Programaticas_2026.csv. <em>No significa "no vacunado"</em>: la denominación exacta usada en este visor es "Sin registro válido de Neumo23 administrada encontrado en la base RNI 2026 analizada". Podría haberse vacunado antes de 2026, en otro sistema, o existir un error de registro.<br>
-        <strong>Requiere revisión (190):</strong> en la nómina, con al menos un registro de Neumo23 en la base, pero donde <strong>ninguno</strong> de esos registros cumple la definición de "registro válido" (todos tienen REGISTRO_ELIMINADO distinto de "NO", VACUNA_ADMINISTRADA distinto de "SI", y/o DOSIS = "EPRO"). A diferencia de "Sin registro válido encontrado", aquí sí existe evidencia de un intento de vacunación en el RNI, solo que ninguno de esos intentos quedó registrado como una administración válida.<br>
-        <strong>Registro válido, no cumple año/territorio (131):</strong> en la nómina, con al menos un registro válido de Neumo23, pero donde ninguno de esos registros válidos coincide simultáneamente con año de nacimiento 1961 y residencia/ocurrencia en Ñuble. Se diferencia de "Sin registro válido encontrado" en que aquí sí existe un registro válido de administración; el problema es una discrepancia de cohorte o territorio, no la ausencia del registro.<br>
+        <strong>Registro válido encontrado (4.215):</strong> en la nómina, con al menos una misma dosis válida de Neumo23 (según la definición de arriba) que cumple simultáneamente año de nacimiento 1961, residencia en comuna de Ñuble y ocurrencia en comuna de Ñuble.<br>
+        <strong>Sin registro válido encontrado (1.887):</strong> en la nómina, sin ningún registro de Neumo23 en la base analizada, ni válido ni excluido por los filtros. No existe ninguna mención de Neumo23 para este RUN en Programaticas_2026.csv. <em>No significa "no vacunado"</em>: la denominación exacta usada en este visor es "Sin registro válido de Neumo23 administrada encontrado en la base RNI 2026 analizada". Podría haberse vacunado antes de 2026, en otro sistema, o existir un error de registro.<br>
+        <strong>Requiere revisión (221):</strong> en la nómina, con al menos un registro de Neumo23 en la base, pero donde <strong>ninguno</strong> de esos registros cumple la definición de "registro válido" (todos tienen REGISTRO_ELIMINADO distinto de "NO", VACUNA_ADMINISTRADA distinto de "SI", y/o DOSIS = "EPRO"). A diferencia de "Sin registro válido encontrado", aquí sí existe evidencia de un intento de vacunación en el RNI, solo que ninguno de esos intentos quedó registrado como una administración válida.<br>
+        <strong>Registro válido, no cumple año/territorio (135):</strong> en la nómina, con al menos un registro válido de Neumo23, pero donde ninguno de esos registros válidos coincide simultáneamente con año de nacimiento 1961 y residencia/ocurrencia en Ñuble. Se diferencia de "Sin registro válido encontrado" en que aquí sí existe un registro válido de administración; el problema es una discrepancia de cohorte o territorio, no la ausencia del registro.<br>
         <strong>RUN no disponible (22):</strong> RUN vacío o con formato no normalizable en la nómina; no se pudo intentar el cruce.
       </dd>
 
@@ -247,28 +247,28 @@
       <dt>"Registro válido con discrepancia de cohorte/territorio" vs. "Sin registro": la diferencia exacta</dt>
       <dd>En "Registro válido, no cumple año/territorio" la persona SÍ tiene una administración de Neumo23 válida y confirmada en el RNI; lo que no coincide es el año de nacimiento y/o la comuna de residencia/ocurrencia respecto de los criterios de la cohorte 1961-Ñuble. En "Sin registro válido encontrado" no hay ninguna administración válida que evaluar: la ausencia es total, no una discrepancia de datos.</dd>
 
-      <dt>Tratamiento separado del grupo de 607 (fuera de nómina)</dt>
-      <dd>El grupo de 607 personas se calcula con exactamente la misma definición de "registro válido" (incluyendo el filtro DOSIS ≠ "EPRO") y los mismos criterios de año/territorio que las 5 categorías anteriores, pero aplicados a personas cuyo RUN normalizado NO aparece en la nómina de 6.480. Se reporta siempre por separado, nunca se suma al universo de 6.480 en los indicadores principales, y su clasificación no reutiliza ni modifica las categorías de la nómina.</dd>
+      <dt>Tratamiento separado del grupo de 616 (fuera de nómina)</dt>
+      <dd>El grupo de 616 personas se calcula con exactamente la misma definición de "registro válido" (incluyendo el filtro DOSIS ≠ "EPRO") y exige que una misma dosis válida cumpla simultáneamente cohorte, residencia y ocurrencia en Ñuble, pero aplicados a personas cuyo RUN normalizado NO aparece en la nómina de 6.480. Se reporta siempre por separado, nunca se suma al universo de 6.480 en los indicadores principales, y su clasificación no reutiliza ni modifica las categorías de la nómina.</dd>
 
       <dt>Comuna utilizada</dt>
-      <dd>Para las 6.480 personas (módulos Resumen, Comunas y Evolución) se usa siempre la comuna de <strong>residencia registrada en la nómina original</strong>, nunca la de Programaticas_2026.csv, para que las personas sin registro también tengan una comuna asignada. Para el módulo de Establecimientos y el de Hallazgo fuera de nómina se usa la comuna de <strong>ocurrencia/vacunación</strong> proveniente de Programaticas_2026.csv. Estas dos comunas (residencia y ocurrencia) se muestran siempre por separado y nunca se combinan como si fueran la misma variable.</dd>
+      <dd>Para las 6.480 personas (módulos Resumen, Comunas y Evolución) se usa siempre la comuna de <strong>residencia registrada en la nómina original</strong>, nunca la de Programaticas_2026.csv, para que las personas sin registro también tengan una comuna asignada. Para el módulo de Establecimientos se usa la comuna de <strong>ocurrencia/vacunación</strong> proveniente de Programaticas_2026.csv. En el Hallazgo fuera de nómina, el desglose comunal usa residencia según Programaticas_2026.csv y el desglose de establecimientos usa ocurrencia/vacunación. Estas dos comunas (residencia y ocurrencia) se muestran siempre por separado y nunca se combinan como si fueran la misma variable.</dd>
 
-      <dt>Hallazgo fuera de nómina (607 personas)</dt>
+      <dt>Hallazgo fuera de nómina (616 personas)</dt>
       <dd>Personas nacidas en 1961, con Neumo23 válida, residencia y ocurrencia en Ñuble, cuyo RUN normalizado no se encontró en la nómina de 6.480. Se identificaron mediante un cruce inverso (RNI &rarr; nómina). No forman parte del universo operacional de 6.480, no se suman a él en ningún indicador principal, y su eventual incorporación a la nómina debe ser evaluada por la instancia responsable de la estrategia (Servicio de Salud Ñuble y/o SEREMI de Salud Ñuble, según la investigación documental realizada; no existe una asignación formal documentada).</dd>
 
       <dt>Reglas de privacidad aplicadas</dt>
       <dd>
         Ninguna tabla de este visor contiene RUN, RUT, nombres, direcciones, teléfonos, correos, fecha de nacimiento completa, SECTOR, CODIGO.FAMILIA.SECTOR, GENERO detallado, ni la variable ¿HOGAR.O.INSTITUCION?. Este visor recibe únicamente tablas agregadas por comuna/establecimiento/mes ya generadas; el navegador nunca recibe la base con RUN ni una fila por persona.<br><br>
-        <strong>Nota sobre la versión actual (uso interno/local):</strong> a partir de la corrección de presentación solicitada, este visor <strong>ya no aplica supresión de celdas con menos de 10 personas</strong> ("&lt;10") ni <strong>agrupa establecimientos</strong> bajo una categoría "Otros". Se muestran los conteos exactos (incluyendo 1, 2, ..., 9) en todas las tablas agregadas, y todos los establecimientos aparecen en filas individuales. Esta relajación se aplicó porque el visor es una herramienta de análisis interno del propio equipo, no un producto de difusión pública; si en algún momento se decide publicar una versión externa, estas dos protecciones (supresión n&lt;10 y agrupación de establecimientos pequeños) deben reactivarse antes de publicar. Comunas fuera de la Región de Ñuble se siguen agrupando en "Fuera de la Región de Ñuble (agregado)" (esto agrupa filas de comuna, no oculta conteos: las 21 comunas de Ñuble se muestran siempre de forma individual con sus valores exactos).
+        <strong>Decisión de divulgación:</strong> el responsable del proyecto declara tener facultades para aprobar el nivel de detalle público y autoriza mostrar <strong>todos los conteos agregados exactos, incluidos los valores de 1 a 9</strong>, por comuna y establecimiento, <strong>sin supresión ni agrupación de establecimientos pequeños</strong>. Esta constancia registra la decisión declarada y no acredita por sí misma cumplimiento legal. Se mantienen las advertencias de confidencialidad y la prohibición de divulgar datos personales o registros individuales. Comunas fuera de la Región de Ñuble se siguen agrupando en "Fuera de la Región de Ñuble (agregado)"; las 21 comunas de Ñuble conservan sus conteos exactos.
       </dd>
 
       <dt>Limitaciones conocidas</dt>
       <dd>
-        No existe un denominador poblacional oficial confirmado independiente de esta nómina (por eso se habla de "avance sobre la nómina", no de "cobertura"). No existe evidencia documental de una fecha de corte oficial de la nómina. La comuna de residencia según la nómina y según Programaticas_2026.csv difiere en aproximadamente 8,8% de los casos con ambos datos disponibles. No se cuenta con una capa geográfica de las comunas de Ñuble, por lo que esta versión no incluye mapa. Los datos de Programaticas_2026.csv son un extracto estático, no una conexión en vivo al RNI.
+        No existe un denominador poblacional oficial confirmado independiente de esta nómina (por eso se habla de "avance sobre la nómina", no de "cobertura"). No existe evidencia documental de una fecha de corte oficial de la nómina. Como antecedente histórico del diseño, se documentó una discrepancia de comuna de residencia entre la nómina y el RNI (Programaticas_2026.csv) de aproximadamente 8,8% entre los casos con ambos datos disponibles (360 de aproximadamente 4.074). Este dato no representa un porcentaje vigente. No se cuenta con una capa geográfica de las comunas de Ñuble, por lo que esta versión no incluye mapa. Los datos de Programaticas_2026.csv son un extracto estático, no una conexión en vivo al RNI.
       </dd>
 
       <dt>Arquitectura de datos</dt>
-      <dd>Base interna con RUN (nunca publicada) &rarr; tablas agregadas con supresión aplicada (carpeta <code>/data</code>, en formato JSON) &rarr; este visor, que solo lee esas tablas agregadas.</dd>
+      <dd>Base interna con RUN (nunca publicada) &rarr; tablas agregadas con conteos exactos autorizados (carpeta <code>/data</code>, en formato JSON) &rarr; este visor, que solo lee esas tablas agregadas.</dd>
     </dl>
   </div>
 </section>
@@ -276,7 +276,7 @@
 </main>
 
 <footer class="pie">
-  Visor de uso interno/institucional &middot; Construido a partir de la nómina original y Programaticas_2026.csv &middot;
+  Visor de datos agregados &middot; Construido a partir de la nómina original y Programaticas_2026.csv &middot;
   No constituye una cobertura poblacional oficial &middot; Ningún archivo fuente original fue modificado.
 </footer>
 

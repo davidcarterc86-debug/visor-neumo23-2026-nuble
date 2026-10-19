@@ -26,6 +26,13 @@ function fmt(n) {
   return n.toLocaleString("es-CL");
 }
 
+function pctDesdeConteos(numerador, denominador) {
+  if (typeof numerador !== "number" || !Number.isFinite(numerador)
+      || typeof denominador !== "number" || !Number.isFinite(denominador)
+      || denominador <= 0) return null;
+  return 100 * numerador / denominador;
+}
+
 function pctStr(p) {
   if (p === null || p === undefined) return "s/d";
   return p.toLocaleString("es-CL", { minimumFractionDigits: 1, maximumFractionDigits: 1 }) + "%";
@@ -56,7 +63,7 @@ function pintarResumen(resumen) {
   const cat = resumen.categorias;
   document.getElementById("kpi-universo").textContent = fmt(resumen.universo_nominal);
   document.getElementById("kpi-encontrado").textContent = fmt(cat.encontrado_valido);
-  document.getElementById("kpi-encontrado-pct").textContent = pctStr(resumen.pct_avance_sobre_nomina);
+  document.getElementById("kpi-encontrado-pct").textContent = pctStr(resumen.pct_avance_sobre_nomina == null ? resumen.pct_avance_sobre_nomina : pctDesdeConteos(cat.encontrado_valido, resumen.universo_nominal));
   document.getElementById("kpi-sin-registro").textContent = fmt(cat.sin_registro);
   document.getElementById("kpi-sin-registro-pct").textContent = pctStr(round1(100 * cat.sin_registro / resumen.universo_nominal));
 
@@ -91,7 +98,7 @@ function pintarComunas(comunas) {
   comunas.forEach((c) => {
     const fila = document.createElement("div");
     fila.className = "fila-comuna";
-    const pct = c.pct_encontrado_valido;
+    const pct = c.pct_encontrado_valido == null ? c.pct_encontrado_valido : pctDesdeConteos(c.encontrado_valido, c.total_nomina);
     const anchoBarra = 100 * (c.total_nomina / maxTotal);
 
     const encN = typeof c.encontrado_valido === "number" ? c.encontrado_valido : 0;
