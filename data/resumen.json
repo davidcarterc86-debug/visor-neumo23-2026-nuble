@@ -1,15 +1,15 @@
 {
   "universo_nominal": 6480,
   "categorias": {
-    "encontrado_valido": 4223,
-    "sin_registro": 1879,
-    "requiere_revision": 221,
-    "no_cumple_criterio": 135,
+    "encontrado_valido": 4229,
+    "sin_registro": 1863,
+    "requiere_revision": 230,
+    "no_cumple_criterio": 136,
     "sin_run": 22
   },
   "suma_verificacion": 6480,
-  "pct_avance_sobre_nomina": 65.17,
+  "pct_avance_sobre_nomina": 65.26,
   "n_607_fuera_nomina": 616,
-  "fecha_generacion_datos": "2026-10-19",
+  "fecha_generacion_datos": "2026-10-20",
   "fuente_datos_nacionales": "Programaticas_2026.csv (extracto usado en esta generación)"
 }

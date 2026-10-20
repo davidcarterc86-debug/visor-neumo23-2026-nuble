@@ -63,11 +63,11 @@
       "n": 6
     },
     {
-      "comuna_residencia": "San Ignacio",
+      "comuna_residencia": "San Fabián",
       "n": 5
     },
     {
-      "comuna_residencia": "San Fabián",
+      "comuna_residencia": "San Ignacio",
       "n": 5
     },
     {
@@ -161,27 +161,27 @@
       "n": 13
     },
     {
-      "codigo_deis": "17-304",
-      "establecimiento": "Centro de Salud Familiar Isabel Riquelme",
-      "comuna_ocurrencia": "Chillán",
-      "n": 13
-    },
-    {
       "codigo_deis": "17-303",
       "establecimiento": "Centro de Salud Familiar Ultraestación Dr. Raúl San Martín González",
       "comuna_ocurrencia": "Chillán",
       "n": 13
     },
     {
-      "codigo_deis": "17-317",
-      "establecimiento": "Centro de Salud Familiar Pinto",
-      "comuna_ocurrencia": "Pinto",
-      "n": 12
+      "codigo_deis": "17-304",
+      "establecimiento": "Centro de Salud Familiar Isabel Riquelme",
+      "comuna_ocurrencia": "Chillán",
+      "n": 13
     },
     {
       "codigo_deis": "17-318",
       "establecimiento": "Centro de Salud Familiar Michelle Chandía Alarcón",
       "comuna_ocurrencia": "Coihueco",
+      "n": 12
+    },
+    {
+      "codigo_deis": "17-317",
+      "establecimiento": "Centro de Salud Familiar Pinto",
+      "comuna_ocurrencia": "Pinto",
       "n": 12
     },
     {
@@ -203,15 +203,15 @@
       "n": 9
     },
     {
-      "codigo_deis": "17-325",
-      "establecimiento": "Centro de Salud Familiar Luis Montecinos",
-      "comuna_ocurrencia": "Coihueco",
-      "n": 8
-    },
-    {
       "codigo_deis": "17-326",
       "establecimiento": "Centro de Salud Familiar Santa Clara",
       "comuna_ocurrencia": "Bulnes",
+      "n": 8
+    },
+    {
+      "codigo_deis": "17-325",
+      "establecimiento": "Centro de Salud Familiar Luis Montecinos",
+      "comuna_ocurrencia": "Coihueco",
       "n": 8
     },
     {
@@ -233,15 +233,15 @@
       "n": 7
     },
     {
-      "codigo_deis": "17-477",
-      "establecimiento": "Posta de Salud Rural Chamizal",
-      "comuna_ocurrencia": "El Carmen",
-      "n": 6
-    },
-    {
       "codigo_deis": "17-305",
       "establecimiento": "Centro de Salud Familiar Portezuelo",
       "comuna_ocurrencia": "Portezuelo",
+      "n": 6
+    },
+    {
+      "codigo_deis": "17-477",
+      "establecimiento": "Posta de Salud Rural Chamizal",
+      "comuna_ocurrencia": "El Carmen",
       "n": 6
     },
     {
@@ -257,15 +257,15 @@
       "n": 5
     },
     {
-      "codigo_deis": "17-310",
-      "establecimiento": "Centro de Salud Familiar Pemuco",
-      "comuna_ocurrencia": "Pemuco",
-      "n": 4
-    },
-    {
       "codigo_deis": "17-322",
       "establecimiento": "Centro de Salud Familiar Quinchamalí",
       "comuna_ocurrencia": "Chillán",
+      "n": 4
+    },
+    {
+      "codigo_deis": "17-310",
+      "establecimiento": "Centro de Salud Familiar Pemuco",
+      "comuna_ocurrencia": "Pemuco",
       "n": 4
     },
     {
@@ -347,15 +347,9 @@
       "n": 2
     },
     {
-      "codigo_deis": "17-101",
-      "establecimiento": "Hospital Clínico Herminda Martín (Chillán)",
-      "comuna_ocurrencia": "Chillán",
-      "n": 1
-    },
-    {
-      "codigo_deis": "17-422",
-      "establecimiento": "Posta de Salud Rural La Gloria",
-      "comuna_ocurrencia": "Ñiquén",
+      "codigo_deis": "17-436",
+      "establecimiento": "Posta de Salud Rural Pedregal de Zapallar",
+      "comuna_ocurrencia": "El Carmen",
       "n": 1
     },
     {
@@ -368,6 +362,18 @@
       "codigo_deis": "17-473",
       "establecimiento": "Posta de Salud Rural Capilla Sur",
       "comuna_ocurrencia": "El Carmen",
+      "n": 1
+    },
+    {
+      "codigo_deis": "17-101",
+      "establecimiento": "Hospital Clínico Herminda Martín (Chillán)",
+      "comuna_ocurrencia": "Chillán",
+      "n": 1
+    },
+    {
+      "codigo_deis": "17-422",
+      "establecimiento": "Posta de Salud Rural La Gloria",
+      "comuna_ocurrencia": "Ñiquén",
       "n": 1
     },
     {
@@ -422,12 +428,6 @@
       "codigo_deis": "17-312",
       "establecimiento": "Centro de Salud Familiar San Nicolás",
       "comuna_ocurrencia": "San Nicolás",
-      "n": 1
-    },
-    {
-      "codigo_deis": "17-436",
-      "establecimiento": "Posta de Salud Rural Pedregal de Zapallar",
-      "comuna_ocurrencia": "El Carmen",
       "n": 1
     },
     {

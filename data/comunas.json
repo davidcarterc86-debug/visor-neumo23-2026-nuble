@@ -2,12 +2,12 @@
   {
     "comuna": "Chillán",
     "total_nomina": 2116,
-    "encontrado_valido": 1297,
-    "sin_registro": 756,
+    "encontrado_valido": 1299,
+    "sin_registro": 754,
     "requiere_revision": 32,
     "no_cumple_criterio": 20,
     "sin_run": 11,
-    "pct_encontrado_valido": 61.29
+    "pct_encontrado_valido": 61.39
   },
   {
     "comuna": "San Carlos",
@@ -22,30 +22,30 @@
   {
     "comuna": "Chillán Viejo",
     "total_nomina": 367,
-    "encontrado_valido": 267,
-    "sin_registro": 61,
+    "encontrado_valido": 269,
+    "sin_registro": 59,
     "requiere_revision": 29,
     "no_cumple_criterio": 4,
     "sin_run": 6,
-    "pct_encontrado_valido": 72.75
+    "pct_encontrado_valido": 73.3
   },
   {
     "comuna": "Coihueco",
     "total_nomina": 344,
-    "encontrado_valido": 246,
-    "sin_registro": 86,
+    "encontrado_valido": 247,
+    "sin_registro": 85,
     "requiere_revision": 8,
     "no_cumple_criterio": 4,
     "sin_run": 0,
-    "pct_encontrado_valido": 71.51
+    "pct_encontrado_valido": 71.8
   },
   {
     "comuna": "Bulnes",
     "total_nomina": 332,
     "encontrado_valido": 215,
-    "sin_registro": 103,
-    "requiere_revision": 3,
-    "no_cumple_criterio": 10,
+    "sin_registro": 97,
+    "requiere_revision": 8,
+    "no_cumple_criterio": 11,
     "sin_run": 1,
     "pct_encontrado_valido": 64.76
   },
@@ -53,8 +53,8 @@
     "comuna": "Quillón",
     "total_nomina": 262,
     "encontrado_valido": 171,
-    "sin_registro": 75,
-    "requiere_revision": 9,
+    "sin_registro": 74,
+    "requiere_revision": 10,
     "no_cumple_criterio": 6,
     "sin_run": 1,
     "pct_encontrado_valido": 65.27
@@ -93,8 +93,8 @@
     "comuna": "Quirihue",
     "total_nomina": 173,
     "encontrado_valido": 99,
-    "sin_registro": 59,
-    "requiere_revision": 13,
+    "sin_registro": 56,
+    "requiere_revision": 16,
     "no_cumple_criterio": 2,
     "sin_run": 0,
     "pct_encontrado_valido": 57.23
@@ -142,12 +142,12 @@
   {
     "comuna": "Pemuco",
     "total_nomina": 119,
-    "encontrado_valido": 88,
-    "sin_registro": 26,
+    "encontrado_valido": 89,
+    "sin_registro": 25,
     "requiere_revision": 3,
     "no_cumple_criterio": 2,
     "sin_run": 0,
-    "pct_encontrado_valido": 73.95
+    "pct_encontrado_valido": 74.79
   },
   {
     "comuna": "Fuera de la Región de Ñuble (agregado)",
