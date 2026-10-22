@@ -2,12 +2,12 @@
   {
     "comuna": "Chillán",
     "total_nomina": 2116,
-    "encontrado_valido": 1299,
-    "sin_registro": 754,
+    "encontrado_valido": 1301,
+    "sin_registro": 752,
     "requiere_revision": 32,
     "no_cumple_criterio": 20,
     "sin_run": 11,
-    "pct_encontrado_valido": 61.39
+    "pct_encontrado_valido": 61.48
   },
   {
     "comuna": "San Carlos",
@@ -22,22 +22,22 @@
   {
     "comuna": "Chillán Viejo",
     "total_nomina": 367,
-    "encontrado_valido": 269,
-    "sin_registro": 59,
+    "encontrado_valido": 270,
+    "sin_registro": 58,
     "requiere_revision": 29,
     "no_cumple_criterio": 4,
     "sin_run": 6,
-    "pct_encontrado_valido": 73.3
+    "pct_encontrado_valido": 73.57
   },
   {
     "comuna": "Coihueco",
     "total_nomina": 344,
-    "encontrado_valido": 247,
-    "sin_registro": 85,
-    "requiere_revision": 8,
+    "encontrado_valido": 251,
+    "sin_registro": 79,
+    "requiere_revision": 10,
     "no_cumple_criterio": 4,
     "sin_run": 0,
-    "pct_encontrado_valido": 71.8
+    "pct_encontrado_valido": 72.97
   },
   {
     "comuna": "Bulnes",
@@ -52,12 +52,12 @@
   {
     "comuna": "Quillón",
     "total_nomina": 262,
-    "encontrado_valido": 171,
+    "encontrado_valido": 172,
     "sin_registro": 74,
     "requiere_revision": 10,
-    "no_cumple_criterio": 6,
+    "no_cumple_criterio": 5,
     "sin_run": 1,
-    "pct_encontrado_valido": 65.27
+    "pct_encontrado_valido": 65.65
   },
   {
     "comuna": "San Ignacio",

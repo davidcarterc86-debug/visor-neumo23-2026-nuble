@@ -63,11 +63,11 @@
       "n": 6
     },
     {
-      "comuna_residencia": "San Fabián",
+      "comuna_residencia": "San Ignacio",
       "n": 5
     },
     {
-      "comuna_residencia": "San Ignacio",
+      "comuna_residencia": "San Fabián",
       "n": 5
     },
     {
@@ -233,12 +233,6 @@
       "n": 7
     },
     {
-      "codigo_deis": "17-305",
-      "establecimiento": "Centro de Salud Familiar Portezuelo",
-      "comuna_ocurrencia": "Portezuelo",
-      "n": 6
-    },
-    {
       "codigo_deis": "17-477",
       "establecimiento": "Posta de Salud Rural Chamizal",
       "comuna_ocurrencia": "El Carmen",
@@ -248,6 +242,12 @@
       "codigo_deis": "17-311",
       "establecimiento": "Centro de Salud Familiar Dr. José Duran Trujillo",
       "comuna_ocurrencia": "San Carlos",
+      "n": 6
+    },
+    {
+      "codigo_deis": "17-305",
+      "establecimiento": "Centro de Salud Familiar Portezuelo",
+      "comuna_ocurrencia": "Portezuelo",
       "n": 6
     },
     {
@@ -347,12 +347,6 @@
       "n": 2
     },
     {
-      "codigo_deis": "17-436",
-      "establecimiento": "Posta de Salud Rural Pedregal de Zapallar",
-      "comuna_ocurrencia": "El Carmen",
-      "n": 1
-    },
-    {
       "codigo_deis": "17-468",
       "establecimiento": "Posta de Salud Rural Belén (Ñiquen)",
       "comuna_ocurrencia": "Ñiquén",
@@ -428,6 +422,12 @@
       "codigo_deis": "17-312",
       "establecimiento": "Centro de Salud Familiar San Nicolás",
       "comuna_ocurrencia": "San Nicolás",
+      "n": 1
+    },
+    {
+      "codigo_deis": "17-436",
+      "establecimiento": "Posta de Salud Rural Pedregal de Zapallar",
+      "comuna_ocurrencia": "El Carmen",
       "n": 1
     },
     {
