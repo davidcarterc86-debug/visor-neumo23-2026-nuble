@@ -1,10 +1,10 @@
 {
-  "total": 616,
+  "total": 618,
   "advertencia": "Este grupo NO forma parte de la nómina oficial de 6.480 personas. Fue identificado mediante cruce con Programaticas_2026.csv (RNI 2026). Su eventual incorporación a la nómina debe ser evaluada por la instancia responsable de la estrategia. Estas cifras NUNCA deben sumarse al universo de 6.480 en los indicadores principales.",
   "por_comuna_residencia": [
     {
       "comuna_residencia": "Chillán",
-      "n": 262
+      "n": 263
     },
     {
       "comuna_residencia": "Coelemu",
@@ -20,7 +20,7 @@
     },
     {
       "comuna_residencia": "San Carlos",
-      "n": 30
+      "n": 31
     },
     {
       "comuna_residencia": "Bulnes",
@@ -98,7 +98,7 @@
       "codigo_deis": "17-301",
       "establecimiento": "Centro de Salud Familiar Violeta Parra",
       "comuna_ocurrencia": "Chillán",
-      "n": 52
+      "n": 53
     },
     {
       "codigo_deis": "17-108",
@@ -125,16 +125,16 @@
       "n": 29
     },
     {
+      "codigo_deis": "17-329",
+      "establecimiento": "Centro de Salud Familiar Teresa Baldechi",
+      "comuna_ocurrencia": "San Carlos",
+      "n": 23
+    },
+    {
       "codigo_deis": "17-306",
       "establecimiento": "Centro de Salud Familiar Quillón",
       "comuna_ocurrencia": "Quillón",
       "n": 23
-    },
-    {
-      "codigo_deis": "17-329",
-      "establecimiento": "Centro de Salud Familiar Teresa Baldechi",
-      "comuna_ocurrencia": "San Carlos",
-      "n": 22
     },
     {
       "codigo_deis": "17-103",
@@ -488,7 +488,7 @@
     },
     {
       "mes": "2026-10",
-      "n": 6
+      "n": 8
     }
   ]
 }

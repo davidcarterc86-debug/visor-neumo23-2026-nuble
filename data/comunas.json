@@ -2,12 +2,12 @@
   {
     "comuna": "Chillán",
     "total_nomina": 2116,
-    "encontrado_valido": 1301,
-    "sin_registro": 752,
+    "encontrado_valido": 1302,
+    "sin_registro": 751,
     "requiere_revision": 32,
     "no_cumple_criterio": 20,
     "sin_run": 11,
-    "pct_encontrado_valido": 61.48
+    "pct_encontrado_valido": 61.53
   },
   {
     "comuna": "San Carlos",
@@ -52,22 +52,22 @@
   {
     "comuna": "Quillón",
     "total_nomina": 262,
-    "encontrado_valido": 172,
-    "sin_registro": 74,
+    "encontrado_valido": 177,
+    "sin_registro": 69,
     "requiere_revision": 10,
     "no_cumple_criterio": 5,
     "sin_run": 1,
-    "pct_encontrado_valido": 65.65
+    "pct_encontrado_valido": 67.56
   },
   {
     "comuna": "San Ignacio",
     "total_nomina": 236,
-    "encontrado_valido": 142,
-    "sin_registro": 92,
+    "encontrado_valido": 143,
+    "sin_registro": 91,
     "requiere_revision": 0,
     "no_cumple_criterio": 2,
     "sin_run": 0,
-    "pct_encontrado_valido": 60.17
+    "pct_encontrado_valido": 60.59
   },
   {
     "comuna": "Yungay",
@@ -102,12 +102,12 @@
   {
     "comuna": "Ñiquén",
     "total_nomina": 169,
-    "encontrado_valido": 111,
-    "sin_registro": 48,
+    "encontrado_valido": 112,
+    "sin_registro": 47,
     "requiere_revision": 2,
     "no_cumple_criterio": 7,
     "sin_run": 1,
-    "pct_encontrado_valido": 65.68
+    "pct_encontrado_valido": 66.27
   },
   {
     "comuna": "Pinto",
