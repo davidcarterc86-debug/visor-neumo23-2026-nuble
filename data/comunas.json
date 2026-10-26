@@ -2,12 +2,12 @@
   {
     "comuna": "Chillán",
     "total_nomina": 2116,
-    "encontrado_valido": 1302,
-    "sin_registro": 751,
+    "encontrado_valido": 1304,
+    "sin_registro": 749,
     "requiere_revision": 32,
     "no_cumple_criterio": 20,
     "sin_run": 11,
-    "pct_encontrado_valido": 61.53
+    "pct_encontrado_valido": 61.63
   },
   {
     "comuna": "San Carlos",
@@ -23,8 +23,8 @@
     "comuna": "Chillán Viejo",
     "total_nomina": 367,
     "encontrado_valido": 270,
-    "sin_registro": 58,
-    "requiere_revision": 29,
+    "sin_registro": 57,
+    "requiere_revision": 30,
     "no_cumple_criterio": 4,
     "sin_run": 6,
     "pct_encontrado_valido": 73.57
@@ -52,12 +52,12 @@
   {
     "comuna": "Quillón",
     "total_nomina": 262,
-    "encontrado_valido": 177,
+    "encontrado_valido": 176,
     "sin_registro": 69,
-    "requiere_revision": 10,
+    "requiere_revision": 11,
     "no_cumple_criterio": 5,
     "sin_run": 1,
-    "pct_encontrado_valido": 67.56
+    "pct_encontrado_valido": 67.18
   },
   {
     "comuna": "San Ignacio",
@@ -112,12 +112,12 @@
   {
     "comuna": "Pinto",
     "total_nomina": 161,
-    "encontrado_valido": 107,
-    "sin_registro": 49,
+    "encontrado_valido": 108,
+    "sin_registro": 48,
     "requiere_revision": 2,
     "no_cumple_criterio": 3,
     "sin_run": 0,
-    "pct_encontrado_valido": 66.46
+    "pct_encontrado_valido": 67.08
   },
   {
     "comuna": "Coelemu",

@@ -22,3 +22,4 @@ fecha,hora,archivo_procesado,estado,universo,encontrado_valido,sin_registro,requ
 2026-10-20,10:29:31,Programaticas_2026.csv,OK,6480,4229,1863,230,136,22,616,224963
 2026-10-22,11:25:09,Programaticas_2026.csv,OK,6480,4237,1854,232,135,22,616,225866
 2026-10-23,15:40:27,Programaticas_2026.csv,OK,6480,4245,1846,232,135,22,618,226321
+2026-10-26,09:12:15,Programaticas_2026.csv,OK,6480,4247,1842,234,135,22,620,226684

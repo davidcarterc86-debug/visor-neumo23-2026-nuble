@@ -16,37 +16,37 @@
   },
   {
     "mes": "2026-04",
-    "nuevos_encontrados": 741,
-    "acumulado": 2529
+    "nuevos_encontrados": 740,
+    "acumulado": 2528
   },
   {
     "mes": "2026-05",
     "nuevos_encontrados": 565,
-    "acumulado": 3094
+    "acumulado": 3093
   },
   {
     "mes": "2026-06",
-    "nuevos_encontrados": 376,
-    "acumulado": 3470
+    "nuevos_encontrados": 375,
+    "acumulado": 3468
   },
   {
     "mes": "2026-07",
     "nuevos_encontrados": 255,
-    "acumulado": 3725
+    "acumulado": 3723
   },
   {
     "mes": "2026-08",
     "nuevos_encontrados": 276,
-    "acumulado": 4001
+    "acumulado": 3999
   },
   {
     "mes": "2026-09",
     "nuevos_encontrados": 134,
-    "acumulado": 4135
+    "acumulado": 4133
   },
   {
     "mes": "2026-10",
-    "nuevos_encontrados": 110,
-    "acumulado": 4245
+    "nuevos_encontrados": 114,
+    "acumulado": 4247
   }
 ]

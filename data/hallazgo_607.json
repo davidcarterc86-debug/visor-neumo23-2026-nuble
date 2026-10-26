@@ -1,5 +1,5 @@
 {
-  "total": 618,
+  "total": 620,
   "advertencia": "Este grupo NO forma parte de la nómina oficial de 6.480 personas. Fue identificado mediante cruce con Programaticas_2026.csv (RNI 2026). Su eventual incorporación a la nómina debe ser evaluada por la instancia responsable de la estrategia. Estas cifras NUNCA deben sumarse al universo de 6.480 en los indicadores principales.",
   "por_comuna_residencia": [
     {
@@ -24,7 +24,7 @@
     },
     {
       "comuna_residencia": "Bulnes",
-      "n": 28
+      "n": 30
     },
     {
       "comuna_residencia": "Quillón",
@@ -185,6 +185,12 @@
       "n": 12
     },
     {
+      "codigo_deis": "17-326",
+      "establecimiento": "Centro de Salud Familiar Santa Clara",
+      "comuna_ocurrencia": "Bulnes",
+      "n": 10
+    },
+    {
       "codigo_deis": "17-328",
       "establecimiento": "Centro de Salud Familiar Dr. Federico Puga",
       "comuna_ocurrencia": "Chillán Viejo",
@@ -201,12 +207,6 @@
       "establecimiento": "Centro de Salud Familiar Ñiquén",
       "comuna_ocurrencia": "Ñiquén",
       "n": 9
-    },
-    {
-      "codigo_deis": "17-326",
-      "establecimiento": "Centro de Salud Familiar Santa Clara",
-      "comuna_ocurrencia": "Bulnes",
-      "n": 8
     },
     {
       "codigo_deis": "17-325",
@@ -488,7 +488,7 @@
     },
     {
       "mes": "2026-10",
-      "n": 8
+      "n": 10
     }
   ]
 }
