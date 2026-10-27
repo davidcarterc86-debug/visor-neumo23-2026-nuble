@@ -15,11 +15,11 @@
       "n": 50
     },
     {
-      "comuna_residencia": "Yungay",
+      "comuna_residencia": "San Carlos",
       "n": 31
     },
     {
-      "comuna_residencia": "San Carlos",
+      "comuna_residencia": "Yungay",
       "n": 31
     },
     {
@@ -161,22 +161,16 @@
       "n": 13
     },
     {
-      "codigo_deis": "17-303",
-      "establecimiento": "Centro de Salud Familiar Ultraestación Dr. Raúl San Martín González",
-      "comuna_ocurrencia": "Chillán",
-      "n": 13
-    },
-    {
       "codigo_deis": "17-304",
       "establecimiento": "Centro de Salud Familiar Isabel Riquelme",
       "comuna_ocurrencia": "Chillán",
       "n": 13
     },
     {
-      "codigo_deis": "17-318",
-      "establecimiento": "Centro de Salud Familiar Michelle Chandía Alarcón",
-      "comuna_ocurrencia": "Coihueco",
-      "n": 12
+      "codigo_deis": "17-303",
+      "establecimiento": "Centro de Salud Familiar Ultraestación Dr. Raúl San Martín González",
+      "comuna_ocurrencia": "Chillán",
+      "n": 13
     },
     {
       "codigo_deis": "17-317",
@@ -185,15 +179,21 @@
       "n": 12
     },
     {
-      "codigo_deis": "17-326",
-      "establecimiento": "Centro de Salud Familiar Santa Clara",
-      "comuna_ocurrencia": "Bulnes",
-      "n": 10
+      "codigo_deis": "17-318",
+      "establecimiento": "Centro de Salud Familiar Michelle Chandía Alarcón",
+      "comuna_ocurrencia": "Coihueco",
+      "n": 12
     },
     {
       "codigo_deis": "17-328",
       "establecimiento": "Centro de Salud Familiar Dr. Federico Puga",
       "comuna_ocurrencia": "Chillán Viejo",
+      "n": 10
+    },
+    {
+      "codigo_deis": "17-326",
+      "establecimiento": "Centro de Salud Familiar Santa Clara",
+      "comuna_ocurrencia": "Bulnes",
       "n": 10
     },
     {
@@ -239,15 +239,15 @@
       "n": 6
     },
     {
-      "codigo_deis": "17-311",
-      "establecimiento": "Centro de Salud Familiar Dr. José Duran Trujillo",
-      "comuna_ocurrencia": "San Carlos",
-      "n": 6
-    },
-    {
       "codigo_deis": "17-305",
       "establecimiento": "Centro de Salud Familiar Portezuelo",
       "comuna_ocurrencia": "Portezuelo",
+      "n": 6
+    },
+    {
+      "codigo_deis": "17-311",
+      "establecimiento": "Centro de Salud Familiar Dr. José Duran Trujillo",
+      "comuna_ocurrencia": "San Carlos",
       "n": 6
     },
     {
@@ -257,15 +257,15 @@
       "n": 5
     },
     {
-      "codigo_deis": "17-322",
-      "establecimiento": "Centro de Salud Familiar Quinchamalí",
-      "comuna_ocurrencia": "Chillán",
-      "n": 4
-    },
-    {
       "codigo_deis": "17-310",
       "establecimiento": "Centro de Salud Familiar Pemuco",
       "comuna_ocurrencia": "Pemuco",
+      "n": 4
+    },
+    {
+      "codigo_deis": "17-322",
+      "establecimiento": "Centro de Salud Familiar Quinchamalí",
+      "comuna_ocurrencia": "Chillán",
       "n": 4
     },
     {
@@ -347,18 +347,6 @@
       "n": 2
     },
     {
-      "codigo_deis": "17-468",
-      "establecimiento": "Posta de Salud Rural Belén (Ñiquen)",
-      "comuna_ocurrencia": "Ñiquén",
-      "n": 1
-    },
-    {
-      "codigo_deis": "17-473",
-      "establecimiento": "Posta de Salud Rural Capilla Sur",
-      "comuna_ocurrencia": "El Carmen",
-      "n": 1
-    },
-    {
       "codigo_deis": "17-101",
       "establecimiento": "Hospital Clínico Herminda Martín (Chillán)",
       "comuna_ocurrencia": "Chillán",
@@ -368,6 +356,18 @@
       "codigo_deis": "17-422",
       "establecimiento": "Posta de Salud Rural La Gloria",
       "comuna_ocurrencia": "Ñiquén",
+      "n": 1
+    },
+    {
+      "codigo_deis": "17-468",
+      "establecimiento": "Posta de Salud Rural Belén (Ñiquen)",
+      "comuna_ocurrencia": "Ñiquén",
+      "n": 1
+    },
+    {
+      "codigo_deis": "17-473",
+      "establecimiento": "Posta de Salud Rural Capilla Sur",
+      "comuna_ocurrencia": "El Carmen",
       "n": 1
     },
     {

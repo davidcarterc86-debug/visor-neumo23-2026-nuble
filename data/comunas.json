@@ -2,12 +2,12 @@
   {
     "comuna": "Chillán",
     "total_nomina": 2116,
-    "encontrado_valido": 1304,
-    "sin_registro": 749,
+    "encontrado_valido": 1305,
+    "sin_registro": 748,
     "requiere_revision": 32,
     "no_cumple_criterio": 20,
     "sin_run": 11,
-    "pct_encontrado_valido": 61.63
+    "pct_encontrado_valido": 61.67
   },
   {
     "comuna": "San Carlos",
@@ -43,21 +43,21 @@
     "comuna": "Bulnes",
     "total_nomina": 332,
     "encontrado_valido": 215,
-    "sin_registro": 97,
+    "sin_registro": 96,
     "requiere_revision": 8,
-    "no_cumple_criterio": 11,
+    "no_cumple_criterio": 12,
     "sin_run": 1,
     "pct_encontrado_valido": 64.76
   },
   {
     "comuna": "Quillón",
     "total_nomina": 262,
-    "encontrado_valido": 176,
-    "sin_registro": 69,
+    "encontrado_valido": 177,
+    "sin_registro": 68,
     "requiere_revision": 11,
     "no_cumple_criterio": 5,
     "sin_run": 1,
-    "pct_encontrado_valido": 67.18
+    "pct_encontrado_valido": 67.56
   },
   {
     "comuna": "San Ignacio",
