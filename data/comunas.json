@@ -2,12 +2,12 @@
   {
     "comuna": "Chillán",
     "total_nomina": 2116,
-    "encontrado_valido": 1305,
-    "sin_registro": 748,
-    "requiere_revision": 32,
+    "encontrado_valido": 1307,
+    "sin_registro": 744,
+    "requiere_revision": 34,
     "no_cumple_criterio": 20,
     "sin_run": 11,
-    "pct_encontrado_valido": 61.67
+    "pct_encontrado_valido": 61.77
   },
   {
     "comuna": "San Carlos",
@@ -33,8 +33,8 @@
     "comuna": "Coihueco",
     "total_nomina": 344,
     "encontrado_valido": 251,
-    "sin_registro": 79,
-    "requiere_revision": 10,
+    "sin_registro": 78,
+    "requiere_revision": 11,
     "no_cumple_criterio": 4,
     "sin_run": 0,
     "pct_encontrado_valido": 72.97
@@ -72,12 +72,12 @@
   {
     "comuna": "Yungay",
     "total_nomina": 233,
-    "encontrado_valido": 140,
-    "sin_registro": 84,
+    "encontrado_valido": 141,
+    "sin_registro": 83,
     "requiere_revision": 1,
     "no_cumple_criterio": 8,
     "sin_run": 0,
-    "pct_encontrado_valido": 60.09
+    "pct_encontrado_valido": 60.52
   },
   {
     "comuna": "San Nicolás",
@@ -152,12 +152,12 @@
   {
     "comuna": "Fuera de la Región de Ñuble (agregado)",
     "total_nomina": 110,
-    "encontrado_valido": 53,
-    "sin_registro": 47,
+    "encontrado_valido": 54,
+    "sin_registro": 46,
     "requiere_revision": 1,
     "no_cumple_criterio": 9,
     "sin_run": 0,
-    "pct_encontrado_valido": 48.18
+    "pct_encontrado_valido": 49.09
   },
   {
     "comuna": "Ránquil",
@@ -192,22 +192,22 @@
   {
     "comuna": "Cobquecura",
     "total_nomina": 88,
-    "encontrado_valido": 58,
-    "sin_registro": 26,
+    "encontrado_valido": 59,
+    "sin_registro": 25,
     "requiere_revision": 2,
     "no_cumple_criterio": 2,
     "sin_run": 0,
-    "pct_encontrado_valido": 65.91
+    "pct_encontrado_valido": 67.05
   },
   {
     "comuna": "Portezuelo",
     "total_nomina": 73,
-    "encontrado_valido": 65,
-    "sin_registro": 6,
+    "encontrado_valido": 66,
+    "sin_registro": 5,
     "requiere_revision": 2,
     "no_cumple_criterio": 0,
     "sin_run": 0,
-    "pct_encontrado_valido": 89.04
+    "pct_encontrado_valido": 90.41
   },
   {
     "comuna": "Trehuaco",
