@@ -15,11 +15,11 @@
       "n": 50
     },
     {
-      "comuna_residencia": "San Carlos",
+      "comuna_residencia": "Yungay",
       "n": 31
     },
     {
-      "comuna_residencia": "Yungay",
+      "comuna_residencia": "San Carlos",
       "n": 31
     },
     {
@@ -173,15 +173,15 @@
       "n": 13
     },
     {
-      "codigo_deis": "17-317",
-      "establecimiento": "Centro de Salud Familiar Pinto",
-      "comuna_ocurrencia": "Pinto",
-      "n": 12
-    },
-    {
       "codigo_deis": "17-318",
       "establecimiento": "Centro de Salud Familiar Michelle Chandía Alarcón",
       "comuna_ocurrencia": "Coihueco",
+      "n": 12
+    },
+    {
+      "codigo_deis": "17-317",
+      "establecimiento": "Centro de Salud Familiar Pinto",
+      "comuna_ocurrencia": "Pinto",
       "n": 12
     },
     {

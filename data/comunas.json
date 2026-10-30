@@ -2,12 +2,12 @@
   {
     "comuna": "Chillán",
     "total_nomina": 2116,
-    "encontrado_valido": 1307,
-    "sin_registro": 744,
+    "encontrado_valido": 1310,
+    "sin_registro": 741,
     "requiere_revision": 34,
     "no_cumple_criterio": 20,
     "sin_run": 11,
-    "pct_encontrado_valido": 61.77
+    "pct_encontrado_valido": 61.91
   },
   {
     "comuna": "San Carlos",
@@ -23,8 +23,8 @@
     "comuna": "Chillán Viejo",
     "total_nomina": 367,
     "encontrado_valido": 270,
-    "sin_registro": 57,
-    "requiere_revision": 30,
+    "sin_registro": 56,
+    "requiere_revision": 31,
     "no_cumple_criterio": 4,
     "sin_run": 6,
     "pct_encontrado_valido": 73.57
@@ -62,22 +62,22 @@
   {
     "comuna": "San Ignacio",
     "total_nomina": 236,
-    "encontrado_valido": 143,
-    "sin_registro": 91,
+    "encontrado_valido": 145,
+    "sin_registro": 89,
     "requiere_revision": 0,
     "no_cumple_criterio": 2,
     "sin_run": 0,
-    "pct_encontrado_valido": 60.59
+    "pct_encontrado_valido": 61.44
   },
   {
     "comuna": "Yungay",
     "total_nomina": 233,
-    "encontrado_valido": 141,
-    "sin_registro": 83,
+    "encontrado_valido": 142,
+    "sin_registro": 82,
     "requiere_revision": 1,
     "no_cumple_criterio": 8,
     "sin_run": 0,
-    "pct_encontrado_valido": 60.52
+    "pct_encontrado_valido": 60.94
   },
   {
     "comuna": "San Nicolás",
@@ -192,12 +192,12 @@
   {
     "comuna": "Cobquecura",
     "total_nomina": 88,
-    "encontrado_valido": 59,
-    "sin_registro": 25,
+    "encontrado_valido": 60,
+    "sin_registro": 24,
     "requiere_revision": 2,
     "no_cumple_criterio": 2,
     "sin_run": 0,
-    "pct_encontrado_valido": 67.05
+    "pct_encontrado_valido": 68.18
   },
   {
     "comuna": "Portezuelo",
