@@ -22,12 +22,12 @@
   {
     "comuna": "Chillán Viejo",
     "total_nomina": 367,
-    "encontrado_valido": 270,
-    "sin_registro": 56,
+    "encontrado_valido": 271,
+    "sin_registro": 55,
     "requiere_revision": 31,
     "no_cumple_criterio": 4,
     "sin_run": 6,
-    "pct_encontrado_valido": 73.57
+    "pct_encontrado_valido": 73.84
   },
   {
     "comuna": "Coihueco",
@@ -62,12 +62,12 @@
   {
     "comuna": "San Ignacio",
     "total_nomina": 236,
-    "encontrado_valido": 145,
-    "sin_registro": 89,
+    "encontrado_valido": 147,
+    "sin_registro": 87,
     "requiere_revision": 0,
     "no_cumple_criterio": 2,
     "sin_run": 0,
-    "pct_encontrado_valido": 61.44
+    "pct_encontrado_valido": 62.29
   },
   {
     "comuna": "Yungay",
@@ -152,12 +152,12 @@
   {
     "comuna": "Fuera de la Región de Ñuble (agregado)",
     "total_nomina": 110,
-    "encontrado_valido": 54,
-    "sin_registro": 46,
+    "encontrado_valido": 55,
+    "sin_registro": 45,
     "requiere_revision": 1,
     "no_cumple_criterio": 9,
     "sin_run": 0,
-    "pct_encontrado_valido": 49.09
+    "pct_encontrado_valido": 50.0
   },
   {
     "comuna": "Ránquil",
