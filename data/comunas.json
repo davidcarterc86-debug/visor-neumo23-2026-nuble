@@ -2,12 +2,12 @@
   {
     "comuna": "Chillán",
     "total_nomina": 2116,
-    "encontrado_valido": 1310,
-    "sin_registro": 741,
+    "encontrado_valido": 1312,
+    "sin_registro": 739,
     "requiere_revision": 34,
     "no_cumple_criterio": 20,
     "sin_run": 11,
-    "pct_encontrado_valido": 61.91
+    "pct_encontrado_valido": 62.0
   },
   {
     "comuna": "San Carlos",
@@ -33,8 +33,8 @@
     "comuna": "Coihueco",
     "total_nomina": 344,
     "encontrado_valido": 251,
-    "sin_registro": 78,
-    "requiere_revision": 11,
+    "sin_registro": 77,
+    "requiere_revision": 12,
     "no_cumple_criterio": 4,
     "sin_run": 0,
     "pct_encontrado_valido": 72.97
@@ -42,12 +42,12 @@
   {
     "comuna": "Bulnes",
     "total_nomina": 332,
-    "encontrado_valido": 215,
-    "sin_registro": 96,
+    "encontrado_valido": 216,
+    "sin_registro": 95,
     "requiere_revision": 8,
     "no_cumple_criterio": 12,
     "sin_run": 1,
-    "pct_encontrado_valido": 64.76
+    "pct_encontrado_valido": 65.06
   },
   {
     "comuna": "Quillón",
@@ -62,12 +62,12 @@
   {
     "comuna": "San Ignacio",
     "total_nomina": 236,
-    "encontrado_valido": 147,
-    "sin_registro": 87,
+    "encontrado_valido": 149,
+    "sin_registro": 85,
     "requiere_revision": 0,
     "no_cumple_criterio": 2,
     "sin_run": 0,
-    "pct_encontrado_valido": 62.29
+    "pct_encontrado_valido": 63.14
   },
   {
     "comuna": "Yungay",

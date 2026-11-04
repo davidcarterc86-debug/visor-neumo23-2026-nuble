@@ -1,10 +1,10 @@
 {
-  "total": 621,
+  "total": 623,
   "advertencia": "Este grupo NO forma parte de la nómina oficial de 6.480 personas. Fue identificado mediante cruce con Programaticas_2026.csv (RNI 2026). Su eventual incorporación a la nómina debe ser evaluada por la instancia responsable de la estrategia. Estas cifras NUNCA deben sumarse al universo de 6.480 en los indicadores principales.",
   "por_comuna_residencia": [
     {
       "comuna_residencia": "Chillán",
-      "n": 263
+      "n": 265
     },
     {
       "comuna_residencia": "Coelemu",
@@ -15,15 +15,15 @@
       "n": 50
     },
     {
+      "comuna_residencia": "Yungay",
+      "n": 31
+    },
+    {
       "comuna_residencia": "San Carlos",
       "n": 31
     },
     {
       "comuna_residencia": "Bulnes",
-      "n": 31
-    },
-    {
-      "comuna_residencia": "Yungay",
       "n": 31
     },
     {
@@ -98,7 +98,7 @@
       "codigo_deis": "17-301",
       "establecimiento": "Centro de Salud Familiar Violeta Parra",
       "comuna_ocurrencia": "Chillán",
-      "n": 53
+      "n": 54
     },
     {
       "codigo_deis": "17-108",
@@ -110,7 +110,7 @@
       "codigo_deis": "17-302",
       "establecimiento": "Centro de Salud Familiar San Ramón Nonato",
       "comuna_ocurrencia": "Chillán",
-      "n": 31
+      "n": 32
     },
     {
       "codigo_deis": "17-107",
@@ -161,27 +161,27 @@
       "n": 13
     },
     {
-      "codigo_deis": "17-304",
-      "establecimiento": "Centro de Salud Familiar Isabel Riquelme",
-      "comuna_ocurrencia": "Chillán",
-      "n": 13
-    },
-    {
       "codigo_deis": "17-303",
       "establecimiento": "Centro de Salud Familiar Ultraestación Dr. Raúl San Martín González",
       "comuna_ocurrencia": "Chillán",
       "n": 13
     },
     {
-      "codigo_deis": "17-317",
-      "establecimiento": "Centro de Salud Familiar Pinto",
-      "comuna_ocurrencia": "Pinto",
-      "n": 12
+      "codigo_deis": "17-304",
+      "establecimiento": "Centro de Salud Familiar Isabel Riquelme",
+      "comuna_ocurrencia": "Chillán",
+      "n": 13
     },
     {
       "codigo_deis": "17-318",
       "establecimiento": "Centro de Salud Familiar Michelle Chandía Alarcón",
       "comuna_ocurrencia": "Coihueco",
+      "n": 12
+    },
+    {
+      "codigo_deis": "17-317",
+      "establecimiento": "Centro de Salud Familiar Pinto",
+      "comuna_ocurrencia": "Pinto",
       "n": 12
     },
     {
@@ -239,15 +239,15 @@
       "n": 6
     },
     {
-      "codigo_deis": "17-305",
-      "establecimiento": "Centro de Salud Familiar Portezuelo",
-      "comuna_ocurrencia": "Portezuelo",
-      "n": 6
-    },
-    {
       "codigo_deis": "17-311",
       "establecimiento": "Centro de Salud Familiar Dr. José Duran Trujillo",
       "comuna_ocurrencia": "San Carlos",
+      "n": 6
+    },
+    {
+      "codigo_deis": "17-305",
+      "establecimiento": "Centro de Salud Familiar Portezuelo",
+      "comuna_ocurrencia": "Portezuelo",
       "n": 6
     },
     {
@@ -347,21 +347,27 @@
       "n": 2
     },
     {
-      "codigo_deis": "17-101",
-      "establecimiento": "Hospital Clínico Herminda Martín (Chillán)",
-      "comuna_ocurrencia": "Chillán",
-      "n": 1
-    },
-    {
       "codigo_deis": "17-468",
       "establecimiento": "Posta de Salud Rural Belén (Ñiquen)",
       "comuna_ocurrencia": "Ñiquén",
       "n": 1
     },
     {
+      "codigo_deis": "17-406",
+      "establecimiento": "Posta de Salud Rural Minas del Prado",
+      "comuna_ocurrencia": "Coihueco",
+      "n": 1
+    },
+    {
       "codigo_deis": "17-473",
       "establecimiento": "Posta de Salud Rural Capilla Sur",
       "comuna_ocurrencia": "El Carmen",
+      "n": 1
+    },
+    {
+      "codigo_deis": "17-101",
+      "establecimiento": "Hospital Clínico Herminda Martín (Chillán)",
+      "comuna_ocurrencia": "Chillán",
       "n": 1
     },
     {
@@ -380,12 +386,6 @@
       "codigo_deis": "17-455",
       "establecimiento": "Consultorio General Rural de Pueblo Seco",
       "comuna_ocurrencia": "San Ignacio",
-      "n": 1
-    },
-    {
-      "codigo_deis": "17-406",
-      "establecimiento": "Posta de Salud Rural Minas del Prado",
-      "comuna_ocurrencia": "Coihueco",
       "n": 1
     },
     {
@@ -489,6 +489,10 @@
     {
       "mes": "2026-10",
       "n": 11
+    },
+    {
+      "mes": "2026-11",
+      "n": 2
     }
   ]
 }

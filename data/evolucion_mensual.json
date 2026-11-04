@@ -48,5 +48,10 @@
     "mes": "2026-10",
     "nuevos_encontrados": 133,
     "acumulado": 4266
+  },
+  {
+    "mes": "2026-11",
+    "nuevos_encontrados": 5,
+    "acumulado": 4271
   }
 ]
