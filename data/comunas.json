@@ -2,12 +2,12 @@
   {
     "comuna": "Chillán",
     "total_nomina": 2116,
-    "encontrado_valido": 1312,
-    "sin_registro": 739,
+    "encontrado_valido": 1318,
+    "sin_registro": 733,
     "requiere_revision": 34,
     "no_cumple_criterio": 20,
     "sin_run": 11,
-    "pct_encontrado_valido": 62.0
+    "pct_encontrado_valido": 62.29
   },
   {
     "comuna": "San Carlos",
@@ -33,8 +33,8 @@
     "comuna": "Coihueco",
     "total_nomina": 344,
     "encontrado_valido": 251,
-    "sin_registro": 77,
-    "requiere_revision": 12,
+    "sin_registro": 76,
+    "requiere_revision": 13,
     "no_cumple_criterio": 4,
     "sin_run": 0,
     "pct_encontrado_valido": 72.97
@@ -62,12 +62,12 @@
   {
     "comuna": "San Ignacio",
     "total_nomina": 236,
-    "encontrado_valido": 149,
-    "sin_registro": 85,
+    "encontrado_valido": 151,
+    "sin_registro": 83,
     "requiere_revision": 0,
     "no_cumple_criterio": 2,
     "sin_run": 0,
-    "pct_encontrado_valido": 63.14
+    "pct_encontrado_valido": 63.98
   },
   {
     "comuna": "Yungay",
@@ -142,20 +142,20 @@
   {
     "comuna": "Pemuco",
     "total_nomina": 119,
-    "encontrado_valido": 89,
-    "sin_registro": 25,
+    "encontrado_valido": 90,
+    "sin_registro": 24,
     "requiere_revision": 3,
     "no_cumple_criterio": 2,
     "sin_run": 0,
-    "pct_encontrado_valido": 74.79
+    "pct_encontrado_valido": 75.63
   },
   {
     "comuna": "Fuera de la Región de Ñuble (agregado)",
     "total_nomina": 110,
     "encontrado_valido": 55,
-    "sin_registro": 45,
+    "sin_registro": 44,
     "requiere_revision": 1,
-    "no_cumple_criterio": 9,
+    "no_cumple_criterio": 10,
     "sin_run": 0,
     "pct_encontrado_valido": 50.0
   },
@@ -223,9 +223,9 @@
     "comuna": "San Fabián",
     "total_nomina": 70,
     "encontrado_valido": 46,
-    "sin_registro": 19,
+    "sin_registro": 18,
     "requiere_revision": 2,
-    "no_cumple_criterio": 3,
+    "no_cumple_criterio": 4,
     "sin_run": 0,
     "pct_encontrado_valido": 65.71
   }
