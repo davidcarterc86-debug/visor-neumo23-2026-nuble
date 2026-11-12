@@ -1,5 +1,5 @@
 {
-  "total": 627,
+  "total": 628,
   "advertencia": "Este grupo NO forma parte de la nómina oficial de 6.480 personas. Fue identificado mediante cruce con Programaticas_2026.csv (RNI 2026). Su eventual incorporación a la nómina debe ser evaluada por la instancia responsable de la estrategia. Estas cifras NUNCA deben sumarse al universo de 6.480 en los indicadores principales.",
   "por_comuna_residencia": [
     {
@@ -12,11 +12,7 @@
     },
     {
       "comuna_residencia": "El Carmen",
-      "n": 50
-    },
-    {
-      "comuna_residencia": "Yungay",
-      "n": 31
+      "n": 51
     },
     {
       "comuna_residencia": "San Carlos",
@@ -24,6 +20,10 @@
     },
     {
       "comuna_residencia": "Bulnes",
+      "n": 31
+    },
+    {
+      "comuna_residencia": "Yungay",
       "n": 31
     },
     {
@@ -43,11 +43,11 @@
       "n": 16
     },
     {
-      "comuna_residencia": "Pinto",
+      "comuna_residencia": "Ránquil",
       "n": 15
     },
     {
-      "comuna_residencia": "Ránquil",
+      "comuna_residencia": "Pinto",
       "n": 15
     },
     {
@@ -116,7 +116,7 @@
       "codigo_deis": "17-107",
       "establecimiento": "Hospital Comunitario de Salud Familiar de El Carmen",
       "comuna_ocurrencia": "El Carmen",
-      "n": 30
+      "n": 31
     },
     {
       "codigo_deis": "17-104",
@@ -125,15 +125,15 @@
       "n": 29
     },
     {
-      "codigo_deis": "17-329",
-      "establecimiento": "Centro de Salud Familiar Teresa Baldechi",
-      "comuna_ocurrencia": "San Carlos",
-      "n": 23
-    },
-    {
       "codigo_deis": "17-306",
       "establecimiento": "Centro de Salud Familiar Quillón",
       "comuna_ocurrencia": "Quillón",
+      "n": 23
+    },
+    {
+      "codigo_deis": "17-329",
+      "establecimiento": "Centro de Salud Familiar Teresa Baldechi",
+      "comuna_ocurrencia": "San Carlos",
       "n": 23
     },
     {
@@ -173,15 +173,15 @@
       "n": 13
     },
     {
-      "codigo_deis": "17-318",
-      "establecimiento": "Centro de Salud Familiar Michelle Chandía Alarcón",
-      "comuna_ocurrencia": "Coihueco",
-      "n": 12
-    },
-    {
       "codigo_deis": "17-317",
       "establecimiento": "Centro de Salud Familiar Pinto",
       "comuna_ocurrencia": "Pinto",
+      "n": 12
+    },
+    {
+      "codigo_deis": "17-318",
+      "establecimiento": "Centro de Salud Familiar Michelle Chandía Alarcón",
+      "comuna_ocurrencia": "Coihueco",
       "n": 12
     },
     {
@@ -347,12 +347,6 @@
       "n": 2
     },
     {
-      "codigo_deis": "17-468",
-      "establecimiento": "Posta de Salud Rural Belén (Ñiquen)",
-      "comuna_ocurrencia": "Ñiquén",
-      "n": 1
-    },
-    {
       "codigo_deis": "17-406",
       "establecimiento": "Posta de Salud Rural Minas del Prado",
       "comuna_ocurrencia": "Coihueco",
@@ -373,6 +367,12 @@
     {
       "codigo_deis": "17-422",
       "establecimiento": "Posta de Salud Rural La Gloria",
+      "comuna_ocurrencia": "Ñiquén",
+      "n": 1
+    },
+    {
+      "codigo_deis": "17-468",
+      "establecimiento": "Posta de Salud Rural Belén (Ñiquen)",
       "comuna_ocurrencia": "Ñiquén",
       "n": 1
     },
@@ -492,7 +492,7 @@
     },
     {
       "mes": "2026-11",
-      "n": 6
+      "n": 7
     }
   ]
 }

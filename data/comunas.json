@@ -2,12 +2,12 @@
   {
     "comuna": "Chillán",
     "total_nomina": 2116,
-    "encontrado_valido": 1318,
-    "sin_registro": 733,
+    "encontrado_valido": 1320,
+    "sin_registro": 731,
     "requiere_revision": 34,
     "no_cumple_criterio": 20,
     "sin_run": 11,
-    "pct_encontrado_valido": 62.29
+    "pct_encontrado_valido": 62.38
   },
   {
     "comuna": "San Carlos",
@@ -62,12 +62,12 @@
   {
     "comuna": "San Ignacio",
     "total_nomina": 236,
-    "encontrado_valido": 151,
-    "sin_registro": 83,
+    "encontrado_valido": 152,
+    "sin_registro": 82,
     "requiere_revision": 0,
     "no_cumple_criterio": 2,
     "sin_run": 0,
-    "pct_encontrado_valido": 63.98
+    "pct_encontrado_valido": 64.41
   },
   {
     "comuna": "Yungay",
@@ -102,12 +102,12 @@
   {
     "comuna": "Ñiquén",
     "total_nomina": 169,
-    "encontrado_valido": 112,
-    "sin_registro": 47,
+    "encontrado_valido": 113,
+    "sin_registro": 46,
     "requiere_revision": 2,
     "no_cumple_criterio": 7,
     "sin_run": 1,
-    "pct_encontrado_valido": 66.27
+    "pct_encontrado_valido": 66.86
   },
   {
     "comuna": "Pinto",
