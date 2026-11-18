@@ -2,32 +2,32 @@
   {
     "comuna": "Chillán",
     "total_nomina": 2116,
-    "encontrado_valido": 1320,
-    "sin_registro": 731,
+    "encontrado_valido": 1334,
+    "sin_registro": 717,
     "requiere_revision": 34,
     "no_cumple_criterio": 20,
     "sin_run": 11,
-    "pct_encontrado_valido": 62.38
+    "pct_encontrado_valido": 63.04
   },
   {
     "comuna": "San Carlos",
     "total_nomina": 809,
-    "encontrado_valido": 592,
-    "sin_registro": 130,
+    "encontrado_valido": 593,
+    "sin_registro": 129,
     "requiere_revision": 72,
     "no_cumple_criterio": 14,
     "sin_run": 1,
-    "pct_encontrado_valido": 73.18
+    "pct_encontrado_valido": 73.3
   },
   {
     "comuna": "Chillán Viejo",
     "total_nomina": 367,
-    "encontrado_valido": 271,
+    "encontrado_valido": 272,
     "sin_registro": 55,
-    "requiere_revision": 31,
+    "requiere_revision": 30,
     "no_cumple_criterio": 4,
     "sin_run": 6,
-    "pct_encontrado_valido": 73.84
+    "pct_encontrado_valido": 74.11
   },
   {
     "comuna": "Coihueco",
@@ -102,12 +102,12 @@
   {
     "comuna": "Ñiquén",
     "total_nomina": 169,
-    "encontrado_valido": 113,
-    "sin_registro": 46,
+    "encontrado_valido": 114,
+    "sin_registro": 45,
     "requiere_revision": 2,
     "no_cumple_criterio": 7,
     "sin_run": 1,
-    "pct_encontrado_valido": 66.86
+    "pct_encontrado_valido": 67.46
   },
   {
     "comuna": "Pinto",
@@ -202,12 +202,12 @@
   {
     "comuna": "Portezuelo",
     "total_nomina": 73,
-    "encontrado_valido": 66,
-    "sin_registro": 5,
+    "encontrado_valido": 67,
+    "sin_registro": 4,
     "requiere_revision": 2,
     "no_cumple_criterio": 0,
     "sin_run": 0,
-    "pct_encontrado_valido": 90.41
+    "pct_encontrado_valido": 91.78
   },
   {
     "comuna": "Trehuaco",

@@ -3,7 +3,7 @@
     "codigo_deis": "17-329",
     "establecimiento": "Centro de Salud Familiar Teresa Baldechi",
     "comuna_ocurrencia": "San Carlos",
-    "total_encontrados": 350
+    "total_encontrados": 351
   },
   {
     "codigo_deis": "17-301",
@@ -15,7 +15,7 @@
     "codigo_deis": "17-302",
     "establecimiento": "Centro de Salud Familiar San Ramón Nonato",
     "comuna_ocurrencia": "Chillán",
-    "total_encontrados": 219
+    "total_encontrados": 222
   },
   {
     "codigo_deis": "17-311",
@@ -39,13 +39,13 @@
     "codigo_deis": "17-328",
     "establecimiento": "Centro de Salud Familiar Dr. Federico Puga",
     "comuna_ocurrencia": "Chillán Viejo",
-    "total_encontrados": 168
+    "total_encontrados": 169
   },
   {
     "codigo_deis": "17-303",
     "establecimiento": "Centro de Salud Familiar Ultraestación Dr. Raúl San Martín González",
     "comuna_ocurrencia": "Chillán",
-    "total_encontrados": 156
+    "total_encontrados": 157
   },
   {
     "codigo_deis": "17-306",
@@ -66,16 +66,16 @@
     "total_encontrados": 135
   },
   {
+    "codigo_deis": "17-304",
+    "establecimiento": "Centro de Salud Familiar Isabel Riquelme",
+    "comuna_ocurrencia": "Chillán",
+    "total_encontrados": 131
+  },
+  {
     "codigo_deis": "17-331",
     "establecimiento": "Centro de Salud Familiar Dra. Michelle Bachelet Jeria",
     "comuna_ocurrencia": "Chillán Viejo",
     "total_encontrados": 125
-  },
-  {
-    "codigo_deis": "17-304",
-    "establecimiento": "Centro de Salud Familiar Isabel Riquelme",
-    "comuna_ocurrencia": "Chillán",
-    "total_encontrados": 123
   },
   {
     "codigo_deis": "17-312",
@@ -87,7 +87,7 @@
     "codigo_deis": "17-330",
     "establecimiento": "Centro de Salud Familiar Sol de Oriente",
     "comuna_ocurrencia": "Chillán",
-    "total_encontrados": 109
+    "total_encontrados": 110
   },
   {
     "codigo_deis": "17-106",
@@ -96,27 +96,27 @@
     "total_encontrados": 93
   },
   {
-    "codigo_deis": "17-104",
-    "establecimiento": "Hospital Comunitario de Salud Familiar Pedro Morales Campos (Yungay)",
-    "comuna_ocurrencia": "Yungay",
-    "total_encontrados": 92
-  },
-  {
     "codigo_deis": "17-317",
     "establecimiento": "Centro de Salud Familiar Pinto",
     "comuna_ocurrencia": "Pinto",
     "total_encontrados": 92
   },
   {
-    "codigo_deis": "17-108",
-    "establecimiento": "Hospital Comunitario de Salud Familiar Dr. Eduardo Contreras Trabucco de Coelemu",
-    "comuna_ocurrencia": "Coelemu",
-    "total_encontrados": 85
+    "codigo_deis": "17-104",
+    "establecimiento": "Hospital Comunitario de Salud Familiar Pedro Morales Campos (Yungay)",
+    "comuna_ocurrencia": "Yungay",
+    "total_encontrados": 92
   },
   {
     "codigo_deis": "17-310",
     "establecimiento": "Centro de Salud Familiar Pemuco",
     "comuna_ocurrencia": "Pemuco",
+    "total_encontrados": 85
+  },
+  {
+    "codigo_deis": "17-108",
+    "establecimiento": "Hospital Comunitario de Salud Familiar Dr. Eduardo Contreras Trabucco de Coelemu",
+    "comuna_ocurrencia": "Coelemu",
     "total_encontrados": 85
   },
   {
@@ -141,13 +141,13 @@
     "codigo_deis": "17-305",
     "establecimiento": "Centro de Salud Familiar Portezuelo",
     "comuna_ocurrencia": "Portezuelo",
-    "total_encontrados": 68
+    "total_encontrados": 69
   },
   {
     "codigo_deis": "17-313",
     "establecimiento": "Centro de Salud Familiar Ñiquén",
     "comuna_ocurrencia": "Ñiquén",
-    "total_encontrados": 62
+    "total_encontrados": 63
   },
   {
     "codigo_deis": "17-316",
@@ -222,15 +222,15 @@
     "total_encontrados": 29
   },
   {
-    "codigo_deis": "17-415",
-    "establecimiento": "Centro Comunitario de Salud Familiar Cachapoal",
-    "comuna_ocurrencia": "San Carlos",
-    "total_encontrados": 27
-  },
-  {
     "codigo_deis": "17-706",
     "establecimiento": "Centro Comunitario de Salud Familiar El Casino",
     "comuna_ocurrencia": "Quillón",
+    "total_encontrados": 27
+  },
+  {
+    "codigo_deis": "17-415",
+    "establecimiento": "Centro Comunitario de Salud Familiar Cachapoal",
+    "comuna_ocurrencia": "San Carlos",
     "total_encontrados": 27
   },
   {
@@ -282,9 +282,9 @@
     "total_encontrados": 12
   },
   {
-    "codigo_deis": "17-407",
-    "establecimiento": "Posta de Salud Rural Tanilvoro",
-    "comuna_ocurrencia": "Coihueco",
+    "codigo_deis": "17-464",
+    "establecimiento": "Posta de Salud Rural Zemita",
+    "comuna_ocurrencia": "Ñiquén",
     "total_encontrados": 9
   },
   {
@@ -294,16 +294,16 @@
     "total_encontrados": 9
   },
   {
-    "codigo_deis": "17-464",
-    "establecimiento": "Posta de Salud Rural Zemita",
-    "comuna_ocurrencia": "Ñiquén",
+    "codigo_deis": "17-407",
+    "establecimiento": "Posta de Salud Rural Tanilvoro",
+    "comuna_ocurrencia": "Coihueco",
     "total_encontrados": 9
   },
   {
     "codigo_deis": "17-902",
     "establecimiento": "Centro Comunitario de Salud Familiar Doña Isabel",
     "comuna_ocurrencia": "Chillán",
-    "total_encontrados": 8
+    "total_encontrados": 9
   },
   {
     "codigo_deis": "17-403",
@@ -330,6 +330,12 @@
     "total_encontrados": 6
   },
   {
+    "codigo_deis": "17-225",
+    "establecimiento": "Clínica Chillán",
+    "comuna_ocurrencia": "Chillán",
+    "total_encontrados": 5
+  },
+  {
     "codigo_deis": "17-458",
     "establecimiento": "Posta de Salud Rural San Antonio (Yungay)",
     "comuna_ocurrencia": "Yungay",
@@ -342,27 +348,9 @@
     "total_encontrados": 5
   },
   {
-    "codigo_deis": "17-225",
-    "establecimiento": "Clínica Chillán",
-    "comuna_ocurrencia": "Chillán",
-    "total_encontrados": 5
-  },
-  {
-    "codigo_deis": "17-439",
-    "establecimiento": "Posta de Salud Rural Ranguelmo",
-    "comuna_ocurrencia": "Coelemu",
-    "total_encontrados": 4
-  },
-  {
     "codigo_deis": "17-702",
     "establecimiento": "Centro Comunitario de Salud Familiar El Roble",
     "comuna_ocurrencia": "Chillán",
-    "total_encontrados": 4
-  },
-  {
-    "codigo_deis": "17-452",
-    "establecimiento": "Posta de Salud Rural Colmuyao",
-    "comuna_ocurrencia": "Cobquecura",
     "total_encontrados": 4
   },
   {
@@ -378,16 +366,22 @@
     "total_encontrados": 4
   },
   {
+    "codigo_deis": "17-452",
+    "establecimiento": "Posta de Salud Rural Colmuyao",
+    "comuna_ocurrencia": "Cobquecura",
+    "total_encontrados": 4
+  },
+  {
+    "codigo_deis": "17-439",
+    "establecimiento": "Posta de Salud Rural Ranguelmo",
+    "comuna_ocurrencia": "Coelemu",
+    "total_encontrados": 4
+  },
+  {
     "codigo_deis": "17-406",
     "establecimiento": "Posta de Salud Rural Minas del Prado",
     "comuna_ocurrencia": "Coihueco",
     "total_encontrados": 4
-  },
-  {
-    "codigo_deis": "17-474",
-    "establecimiento": "Posta de Salud Rural Agua Santa",
-    "comuna_ocurrencia": "El Carmen",
-    "total_encontrados": 3
   },
   {
     "codigo_deis": "17-416",
@@ -402,9 +396,15 @@
     "total_encontrados": 3
   },
   {
-    "codigo_deis": "17-437",
-    "establecimiento": "Posta de Salud Rural San Vicente (El Carmen)",
+    "codigo_deis": "17-474",
+    "establecimiento": "Posta de Salud Rural Agua Santa",
     "comuna_ocurrencia": "El Carmen",
+    "total_encontrados": 3
+  },
+  {
+    "codigo_deis": "17-419",
+    "establecimiento": "Posta de Salud Rural Ñiquén",
+    "comuna_ocurrencia": "Ñiquén",
     "total_encontrados": 2
   },
   {
@@ -414,16 +414,10 @@
     "total_encontrados": 2
   },
   {
-    "codigo_deis": "17-419",
-    "establecimiento": "Posta de Salud Rural Ñiquén",
-    "comuna_ocurrencia": "Ñiquén",
+    "codigo_deis": "17-437",
+    "establecimiento": "Posta de Salud Rural San Vicente (El Carmen)",
+    "comuna_ocurrencia": "El Carmen",
     "total_encontrados": 2
-  },
-  {
-    "codigo_deis": "17-462",
-    "establecimiento": "Posta de Salud Rural Arizona",
-    "comuna_ocurrencia": "San Carlos",
-    "total_encontrados": 1
   },
   {
     "codigo_deis": "17-430",
@@ -441,6 +435,12 @@
     "codigo_deis": "17-475",
     "establecimiento": "Posta de Salud Rural Castañal",
     "comuna_ocurrencia": "El Carmen",
+    "total_encontrados": 1
+  },
+  {
+    "codigo_deis": "17-462",
+    "establecimiento": "Posta de Salud Rural Arizona",
+    "comuna_ocurrencia": "San Carlos",
     "total_encontrados": 1
   }
 ]

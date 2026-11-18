@@ -1,12 +1,12 @@
 {
-  "fecha": "2026-11-12",
-  "hora": "13:16:12",
+  "fecha": "2026-11-18",
+  "hora": "10:00:38",
   "archivo_procesado": "Programaticas_2026.csv",
   "ruta_archivo_procesado": "D:\\PNI\\PROG\\NACIONAL\\Programaticas_2026.csv",
-  "tamano_bytes": 2298841758,
-  "registros_leidos_rni": 4852919,
-  "registros_neumo23_brutos": 246768,
-  "registros_neumo23_validos": 231276,
-  "registros_epro_excluidos": 133,
+  "tamano_bytes": 2335878622,
+  "registros_leidos_rni": 4931302,
+  "registros_neumo23_brutos": 248562,
+  "registros_neumo23_validos": 232922,
+  "registros_epro_excluidos": 134,
   "estado": "OK"
 }
